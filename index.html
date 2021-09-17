@@ -10,20 +10,21 @@
             height: auto;
         }
     </style>
-    /* TODO trouver src <Font Awesome> et Police Raleway et les insérer ici */
         <title>Reservia</title>
-        <link rel="stylesheet" href="">
-        <link rel="stylesheet" href="">
-        <link href="stylesheet" href="">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+/**
+* ? Avais je besoin de sélectionner tous les styles Raleway dans les liens ci dessus ?
+* /
         <link rel="stylesheet" href="style/style.css">
 </head>
-
 <body>
     <header>
         <nav>
             <img src="./images/logo/Reservia@3x.png" alt="Logo">
             <ul>
-                <li>Hebergements</li>
+                <li>Hébergements</li>
                 <li>Activités</li>
                 <li>S'inscrire</li>
             </ul>
@@ -31,7 +32,11 @@
         <div>
             <h1></h1>
             <p></p>
-            <!--trouver les bonnes balises sémantiques pour ce formulaire-->
+            <i class="fas fa-info-circle"></i>
+/**
+ * ? pas de "link rel" dans le head pour font awesome ?
+* /   
+<!--trouver les bonnes balises sémantiques pour ce formulaire-->
             <frameset>
                 <icon></icon>
                 <div>
