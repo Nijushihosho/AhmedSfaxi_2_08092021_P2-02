@@ -30,7 +30,6 @@ nav li{
     margin: 0 10px 0 20px;
 }
 
-/* pseudo classe pour mettre en bleu s'inscrire de la nav*/
 nav li:last-child {
     color: #0065FC;
 }
@@ -46,7 +45,6 @@ body ul {
     box-sizing: border-box;
 }
 
-/* le conteneur de la barre de recherche */
 .input-container {
     display: -ms-flexbox; 
     display: flex;
@@ -54,7 +52,6 @@ body ul {
     margin-bottom: 25px;
   }
   
-  /* l'icone de localisation de la barre de recherche sur base stackoverflow, cours OCR et W3C*/
   .icon {
     padding: 10px;
     background: #DEEBFF;
@@ -63,7 +60,16 @@ body ul {
     text-align: center;
   }
 
-/* le style de l'icone de localisation de la barre de recherche */
+  ul .fas {
+    padding: 10px;
+    background: #DEEBFF;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 55px;
+    min-width: 50px;
+    text-align: center;
+  }
+
   form .fas {
     padding: 10px;
     background-color: lightgray;
@@ -73,17 +79,14 @@ body ul {
     text-align: center;
   }
   
-  /* le style de l'icone information du paragraphe en fin de header + ajouter une autre class pour gérer la classe qui est à l'intérieure */
-  p.fas {
+  p .fas {
     padding: 10px;
     background: #0065FC;
-    /*background-color: white;*/
     color:white;
     min-width: 50px;
     text-align: center;
   }
 
-  /* complément de style de input container, trouvé sur W3C, à comprendre */
   .input-field {
     width: 100%;
     padding: 10px;
@@ -93,66 +96,40 @@ body ul {
   .input-field:focus {
     border: 2px solid grey;
   }
-
-  /* flexbox conteneur des filtres sur base cours OCR*/ 
-  .input-container2 {
-    display: flex; 
-    justify-content: space-between;
-    /*width: 100%;*/
-    margin-bottom: 25px;
-  }
-
-  /* style des button de filtres dans le  header faire dispaly flex */
+  
+  /* style des button header */
   form .btn {
       background-color: #0065FC;
       color: white;
       padding: 15px 20px;
       border-radius: 0 15px 15px 0;
       cursor: pointer;
-      width: 25px; /*TODO*/
+      width: 80%;
       opacity: 0.9;
   }
   
-/*.btn filtre TODO nouvelle classe*/
-
-/* les btn de filtres avec les textes */
- /*ul.*/
- .btn {
+  
+  .btn {
     background-color: #0065FC;
-    color: black;
-    border-radius: 40px;
+    color: white;
     padding: 15px 20px;
     border: none;
     cursor: pointer;
-    width: 25px;/*TODO*/
+    width: 100%;
     opacity: 0.9;
   }
-
-  /*icones dans les btn de filtres sur base, stackoverflow,  round buttons W3C et consignes missions*/
- .fas {
-    padding: 20px;
-    font-size: 30px;
-    background: #DEEBFF;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    width: 30px;
-    text-align: center;
-    border-radius: 50px;
-  }
-
-
   
-  /* opacité survol des boutons de filtres */
   .btn:hover {
     opacity: 1;
   }
 
 /*main*/
+
 main {
-  background-color: #F2F2F2;
+    background-color:#F2F2F2 ;
 }
 
-/* footer */ 
+
 footer {
     display: flex ;
     justify-content: space-between;
@@ -162,4 +139,4 @@ footer {
 footer li {
     list-style: none;
 }
-/*TODO rajouter Mediaqueries*/
+<!--TODO rajouter Mediaqueries-->
