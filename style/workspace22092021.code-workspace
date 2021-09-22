@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		}
+	],
+	"settings": {
+		"projectManager.git.baseFolders": [
+			"C:\\Users\\nijus\\SparkleShare"
+		],
+		"projectManager.any.baseFolders": [
+			"C:\\Users\\Ahmed\\SparkleShare"
+		],
+		"gitProjectManager.displayProjectPath": true,
+		"compile-hero.disable-compile-files-on-did-save-code": false,
+		"git.showPushSuccessNotification": true,
+		"liveServer.settings.multiRootWorkspaceName": "SparkleShare"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode-remote.remote-wsl"
+		]
+	}
+}
