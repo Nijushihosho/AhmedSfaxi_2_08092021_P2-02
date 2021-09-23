@@ -1,5 +1,9 @@
 {
     "projectManager.git.baseFolders": [
         "C:\\Users\\Ahmed\\SparkleShare"
-    ]
+    ],
+    "prettier.resolveGlobalModules": true,
+    "terminal.integrated.defaultProfile.windows": "Ubuntu-20.04 (WSL)",
+    "compile-hero.disable-compile-files-on-did-save-code": false,
+    "git.autofetch": true
 }
