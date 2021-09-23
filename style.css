@@ -60,7 +60,7 @@ body ul {
     text-align: center;
   }
 
-  ul .fas {
+  .fas {
     padding: 10px;
     background: #DEEBFF;
     color: #0065FC;
@@ -70,7 +70,7 @@ body ul {
     text-align: center;
   }
 
-  form .fas {
+  form.fas {
     padding: 10px;
     background-color: lightgray;
     color: black;
@@ -79,7 +79,7 @@ body ul {
     text-align: center;
   }
   
-  p .fas {
+  p.fas {
     padding: 10px;
     background: #0065FC;
     color:white;
