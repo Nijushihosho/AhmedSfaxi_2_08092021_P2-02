@@ -61,16 +61,16 @@ body ul {
     margin-bottom: 25px;
   }
 
-  
+  /*icon de de localisation*/
   .input-container .fas {
-    background-color: lightgray;
+    background-color: #F2F2F2;
     color: black;
     border-radius: 15px 0 0 15px;
     min-width: 50px;
     padding: 10px;
     text-align: center;
   }
-
+/*conteneur global filtres*/
 .input-container2 {
     display: flex; 
     justify-content: space-between;
@@ -78,7 +78,7 @@ body ul {
   }
   
   
-
+/*style icon information*/
   .fa-info-circle {
     color: white;
     background-color: #0065FC;
@@ -98,7 +98,6 @@ body ul {
   /* style des button header */
 
   /*Bouton rechercher */
-  
   .input-container .btn {
     border-radius: 0 15px 15px 0;
     color: white;
@@ -112,15 +111,15 @@ body ul {
   /* boutons de filtres */
   .btn {
     border: solid 2px;
-    border-color: lightgray;
+    border-color: #F2F2F2;
     border-radius: 35px;
     color: black;
     background: white;
     font-size: 18px;
     cursor: pointer;
     }
-  /*icons font awesome */ 
-
+ 
+    /*icons font awesome */ 
 .input-container2 .fas {
   /*float: left; /* ! sert à quoi de faire des flexbox si c'est pour faire des float en même temps...*/
   display: flex;
@@ -134,12 +133,12 @@ body ul {
   height: 40px;
   border-radius: 50%;
   } 
-
+/*flexbox des boutons barre de filtre*/
   .input-container2 .btn /* *et voilà...c'est qui...qui n'a plus besoin de float...c'est bibi...*/
   {
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-content: flex-start;
   }
 
 
