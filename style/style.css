@@ -92,7 +92,7 @@ body ul {
   }
   
   .input-field:focus {
-    border: 2px solid lightgray;
+    border: 2px solid #F2F2F2;
   }
   
   /* style des button header */
@@ -115,7 +115,7 @@ body ul {
     border-radius: 35px;
     color: black;
     background: white;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
     }
  
@@ -125,7 +125,6 @@ body ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /*padding 0 0 0 10px;*/
   font-size: 1em;
   color: #0065FC;
   background-color: #DEEBFF;
@@ -133,13 +132,12 @@ body ul {
   height: 40px;
   border-radius: 50%;
   } 
-/*flexbox des boutons barre de filtre*/
-  .input-container2 .btn /* *et voilà...c'est qui...qui n'a plus besoin de float...c'est bibi...*/
-  {
-    display: flex;
-    justify-content: space-between;
-    align-content: flex-start;
-  }
+
+.input-container2 .btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 
   .btn:hover {
