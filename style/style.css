@@ -34,9 +34,9 @@ nav li{
 }
 
 /* todo */
-nav ul li :first-child{
+a:hover{
 color: #0065FC;
-border-top: #0065FC;
+border-top-color: #0065FC;
 }
 
 nav li:last-child {
@@ -102,22 +102,10 @@ body ul {
     border-radius: 0 15px 15px 0;
     color: white;
     background-color: #0065FC;
-    /*padding: 10px 14px;*/
-    font-size: auto;
+    padding: 10px 14px;
+    font-size: 18px;
     cursor: pointer;
 }
-  
-
-  /* boutons de filtres */
-  .btn {
-    border: solid 2px;
-    border-color: #F2F2F2;
-    border-radius: 35px;
-    color: black;
-    background: white;
-    font-size: 16px;
-    cursor: pointer;
-    }
  
     /*icons font awesome */ 
 .input-container2 .fas {
@@ -133,10 +121,21 @@ body ul {
   border-radius: 50%;
   } 
 
+  /* boutons de filtres */
+
 .input-container2 .btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 35px;
+  border: solid 2px;
+  border-color: #F2F2F2;
+  border-radius: 35px;
+  color: black;
+  background: white;
+  font-size: 18px;
+  cursor: pointer;
+  }
 }
 
 
