@@ -97,12 +97,11 @@ body ul {
   /*Bouton rechercher */
   
   .input-container .btn {
-    border: none;
     border-radius: 0 15px 15px 0;
     color: white;
     background-color: #0065FC;
-    padding: 10px 14px;
-    font-size: 16px;
+    /*padding: 10px 14px;*/
+    font-size: auto;
     cursor: pointer;
 }
   
@@ -114,18 +113,30 @@ body ul {
     border-radius: 35px;
     color: black;
     background: white;
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
     }
   /*icons font awesome */ 
 
 .input-container2 .fas {
-display: flex;
-float: left;
-align-items: center;
-background: #DEEBFF;
-border-radius: 50px;
-color: #0065FC;
+  /*float: left; /* ! sert à quoi de faire des flexbox si c'est pour faire des float en même temps...*/
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  /*padding 0 0 0 10px;*/
+  font-size: 1em;
+  color: #0065FC;
+  background-color: #DEEBFF;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  } 
+
+  .input-container2 .btn /* *et voilà...c'est qui...qui n'a plus besoin de float...c'est bibi...*/
+  {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
   }
 
   .btn:hover {
