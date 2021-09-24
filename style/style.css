@@ -6,6 +6,9 @@
 /**
 * * Methode * CSS rules to specify families font-family: 'Raleway', sans-serif 
 */
+
+* margin: auto;
+
 body {
     font-family: "Raleway"; sans-serif;
     margin: 0;
@@ -122,7 +125,7 @@ body ul {
   /*float: left; /* ! sert à quoi de faire des flexbox si c'est pour faire des float en même temps...*/
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   /*padding 0 0 0 10px;*/
   font-size: 1em;
   color: #0065FC;
@@ -136,8 +139,9 @@ body ul {
   {
     display: flex;
     justify-content: space-between;
-    align-content: flex-start;
+    align-content: center;
   }
+
 
   .btn:hover {
     opacity: 1;
