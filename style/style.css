@@ -58,29 +58,29 @@ body ul {
     margin-bottom: 25px;
   }
 
+  
+  .input-container .fas {
+    background-color: lightgray;
+    color: black;
+    border-radius: 15px 0 0 15px;
+    min-width: 50px;
+    padding: 10px;
+    text-align: center;
+  }
+
 .input-container2 {
     display: flex; 
-    flex-wrap: ;
+    justify-content: space-around;
+    height: 50px;
     margin-bottom: 25px;
   }
   
   
 
-  form.fas {
-    padding: 10px;
-    background-color: lightgrey;
-    color: black;
-    border-radius: 15px 0 0 15px;
-    min-width: 50px;
-    text-align: center;
-  }
-  
   .fa-info-circle {
-    padding: 10px;
-    background: #0065FC;
-    color:white;
-    min-width: 50px;
-    text-align: center;
+    color: white;
+    background-color: #0065FC;
+    border-radius: 50px;
   }
 
   .input-field {
@@ -95,13 +95,12 @@ body ul {
   
   /* style des button header */
 
-  /*Bouton de rechercher */
-  
+  /*Bouton rechercher */
   
   .input-container .btn {
     border: none;
     border-radius: 0 15px 15px 0;
-    color: black;
+    color: white;
     background-color: #0065FC;
     padding: 10px 14px;
     font-size: 16px;
@@ -113,19 +112,18 @@ body ul {
   .btn {
     border: solid 2px;
     border-color: lightgray;
-    border-radius: 20px;
+    border-radius: 25px;
     color: black;
-    background-color: white;
-    padding: 10px 14px;
+    background: white;
     font-size: 16px;
     cursor: pointer;
     }
+  /*icons font awesome */ 
   
-.fas {
-float: left;
-background-color: #DEEBFF;
+div .fas {
+background: #DEEBFF;
+background-size: ;
 border-radius: 50px;
-min-height: 50px;
 color: #0065FC;
   }
 
