@@ -96,30 +96,32 @@ body ul {
   /* style des button header */
 
   /*Bouton de rechercher */
-  .input-container.btn {
-      background-color: #0065FC;
-      color: white;
-      padding: 15px 20px;
-      border-radius: 0 15px 15px 0;
-      cursor: pointer;
-      width: 25px;
-      opacity: 0.9;
-  }
   
-  /* boutons de filtres */
-  .button1 {
-    background: white;
+  
+  .input-container .btn {
+    border: none;
+    border-radius: 0 15px 15px 0;
     color: black;
-    padding: 15px 20px;
-    border: solid 2px;
-    border-radius: 35px;
-    border-color: lightgrey;
+    background-color: #0065FC;
+    padding: 10px 14px;
+    font-size: 16px;
     cursor: pointer;
-    width: 150px;
-    opacity: 0.9;
-  }
+}
   
-.fa-money-bill-wave-alt {
+
+  /* boutons de filtres */
+  .btn {
+    border: solid 2px;
+    border-color: lightgray;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    padding: 10px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+  
+.fas {
 float: left;
 background-color: #DEEBFF;
 border-radius: 50px;
