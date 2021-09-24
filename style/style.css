@@ -31,7 +31,7 @@ nav li{
 }
 
 /* todo */
-nav li :first-child{
+nav ul li :first-child{
 color: #0065FC;
 border-top: #0065FC;
 }
@@ -70,8 +70,7 @@ body ul {
 
 .input-container2 {
     display: flex; 
-    justify-content: space-around;
-    height: 50px;
+    justify-content: space-between;
     margin-bottom: 25px;
   }
   
@@ -112,17 +111,19 @@ body ul {
   .btn {
     border: solid 2px;
     border-color: lightgray;
-    border-radius: 25px;
+    border-radius: 35px;
     color: black;
     background: white;
     font-size: 16px;
     cursor: pointer;
     }
   /*icons font awesome */ 
-  
-div .fas {
+
+.input-container2 .fas {
+display: flex;
+float: left;
+align-items: center;
 background: #DEEBFF;
-background-size: ;
 border-radius: 50px;
 color: #0065FC;
   }
