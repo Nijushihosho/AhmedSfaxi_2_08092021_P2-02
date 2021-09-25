@@ -169,7 +169,24 @@ display: flex;
 justify-content: space-between;
 align-items: flex-end;
 flex-direction: column;
+background-color: #F2F2F2;
 }
+
+#maincontainer1 figure img {
+  width: 100%;
+  border-radius:20px 20px 0 0;
+  max-height: 75vh;
+  min-width: 0;
+}
+
+#maincontainer2 figure img {
+  width: 100%;
+  border-radius:20px 0px 0px 20px;
+  max-height: 75vh;
+  min-width: 0;
+}
+
+/* flexbox indépendantes */
 
 #cannebiere {
   display: flex;
@@ -235,22 +252,20 @@ flex-direction: column;
   margin: auto;
   border-radius: 20px;
   box-shadow black;
+}
+
+#matin {
 
 }
 
-#maincontainer1 figure img {
-  width: 100%;
-  border-radius:20px 20px 0 0;
-  max-height: 75vh;
-  min-width: 0;
+#hotes {
+
 }
 
-#maincontainer2 figure img {
-  width: 100%;
-  border-radius:20px 0px 0px 20px;
-  max-height: 75vh;
-  min-width: 0;
+#bleublanc {
+  
 }
+
 
 footer {
     display: flex ;
