@@ -147,16 +147,18 @@ body ul {
   }
 
 /*main*/
-
 main {
-  background-color:#F2F2F2 ;
+  display: flex;
+  justify-content: flex-start;
 }
+
 /*section Hébergements à Marseille*/
 #maincontainer1 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  flex-direction: row;
+  background-color: #F2F2F2;
 }
 
 
@@ -169,7 +171,86 @@ align-items: flex-end;
 flex-direction: column;
 }
 
+#cannebiere {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: baseline;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow black;
+  width: fit-content;
+}
 
+#port {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: ;
+  align-items: flex-start;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow black;
+}
+
+#mouettes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: ;
+  align-items: flex-start;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow black;
+}
+
+#mer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: ;
+  align-items: flex-start;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow black;
+}
+
+#panier{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: ;
+  align-items: flex-start;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow black;
+}
+
+#amina {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: ;
+  align-items: flex-start;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow black;
+
+}
+
+#maincontainer1 figure img {
+  width: 100%;
+  border-radius:20px 20px 0 0;
+  max-height: 75vh;
+  min-width: 0;
+}
+
+#maincontainer2 figure img {
+  width: 100%;
+  border-radius:20px 0px 0px 20px;
+  max-height: 75vh;
+  min-width: 0;
+}
 
 footer {
     display: flex ;
@@ -179,5 +260,4 @@ footer {
 
 footer li {
     list-style: none;
-}
-<!--TODO rajouter Mediaqueries-->
+}@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
