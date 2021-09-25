@@ -186,20 +186,21 @@ align-items: flex-end;
 flex-direction: column ;
 flex-direction: column;
 background-color: #F2F2F2;
+width: 120px;
+padding: 5px 0;
+margin: 5px;
+text-align: center;
+font-size: 15px;
 }
 
 #maincontainer1 figure img {
-  width: 100%;
   border-radius:20px 20px 0 0;
-  max-height: 75vh;
-  min-width: 0;
+  object-fit: cover;
 }
 
 #maincontainer2 figure img {
-  width: 100%;
   border-radius:20px 0px 0px 20px;
-  max-height: 75vh;
-  min-width: 0;
+  object-fit: cover;
 }
 
 /* flexbox indépendantes */
@@ -279,7 +280,7 @@ background-color: #F2F2F2;
 }
 
 #bleublanc {
-  
+
 }
 
 
