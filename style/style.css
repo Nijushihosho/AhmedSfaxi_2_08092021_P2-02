@@ -149,16 +149,30 @@ body ul {
 /*main*/
 main {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #F2F2F2;
+}
+
+.titre {
+  display: flex;
   justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.banner{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 /*section Hébergements à Marseille*/
 #maincontainer1 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
   background-color: #F2F2F2;
+  o
 }
 
 
@@ -170,20 +184,21 @@ justify-content: space-between;
 align-items: flex-end;
 flex-direction: column;
 background-color: #F2F2F2;
+width: 120px;
+padding: 5px 0;
+margin: 5px;
+text-align: center;
+font-size: 15px;
 }
 
 #maincontainer1 figure img {
-  width: 100%;
   border-radius:20px 20px 0 0;
-  max-height: 75vh;
-  min-width: 0;
+  object-fit: cover;
 }
 
 #maincontainer2 figure img {
-  width: 100%;
   border-radius:20px 0px 0px 20px;
-  max-height: 75vh;
-  min-width: 0;
+  object-fit: cover;
 }
 
 /* flexbox indépendantes */
@@ -263,7 +278,7 @@ background-color: #F2F2F2;
 }
 
 #bleublanc {
-  
+
 }
 
 
