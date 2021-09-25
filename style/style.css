@@ -155,9 +155,10 @@ main {
 /*section Hébergements à Marseille*/
 #maincontainer1 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
+  /*flex-wrap: wrap;*/
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row;
   background-color: #F2F2F2;
 }
 
@@ -166,9 +167,9 @@ main {
 
 #maincontainer2 {
 display: flex;
-justify-content: space-between;
+justify-content: flex-end;
 align-items: flex-end;
-flex-direction: column;
+flex-direction: column ;
 }
 
 #cannebiere {
