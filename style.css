@@ -1,0 +1,138 @@
+/** @param main. footer. background-color=#F2F2F2: /*voir syntaxe du css */ 
+/* ! même background-color gris pour les deux premières sections du main et footer  */
+/* ? dsfsf */
+/* TODO trouver le nom du sélecteur pour la balise des icons qui vont êtres color bleu #0065FC et background color #DEEBFF*
+/* TODO fichier de remise à zero du css...*/
+/**
+* * Methode * CSS rules to specify families font-family: 'Raleway', sans-serif */
+body {
+    font-family: "Raleway"; sans-serif;
+    margin: 0;
+}
+
+nav img {
+    height: 80px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex ;
+    list-style: none;
+}
+
+nav li{
+    margin: 0 10px 0 20px;
+}
+
+nav li:last-child {
+    color: #0065FC;
+}
+
+/*header*/
+
+body ul {
+    display: flex ;
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.input-container {
+    display: -ms-flexbox; 
+    display: flex;
+    width: 20%;
+    margin-bottom: 25px;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: #DEEBFF;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+
+  ul .fas {
+    padding: 10px;
+    background: #DEEBFF;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 55px;
+    min-width: 50px;
+    text-align: center;
+  }
+
+  form .fas {
+    padding: 10px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 15px 0 0 15px;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  p .fas {
+    padding: 10px;
+    background: #0065FC;
+    color:white;
+    min-width: 50px;
+    text-align: center;
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid grey;
+  }
+  
+  /* style des button header */
+  form .btn {
+      background-color: #0065FC;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 0 15px 15px 0;
+      cursor: pointer;
+      width: 80%;
+      opacity: 0.9;
+  }
+  
+  
+  .btn {
+    background-color: #0065FC;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+/*main*/
+
+
+
+footer {
+    display: flex ;
+    justify-content: space-between;
+    background-color:#F2F2F2 ;
+}
+
+footer li {
+    list-style: none;
+}
+<!--TODO rajouter Mediaqueries-->
