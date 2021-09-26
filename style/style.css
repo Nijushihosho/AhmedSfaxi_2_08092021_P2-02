@@ -154,134 +154,25 @@ main {
   background-color: #F2F2F2;
 }
 
-.titre {
+.maincontainer1{
   display: flex;
-  justify-content: flex-start;
-  align-self: flex-start;
+  flex: wrap;
 }
 
-.banner{
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  font-size: 48px;
+  margin: 5px;
 }
 
 /*section Hébergements à Marseille*/
-#maincontainer1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: row;
-  background-color: #F2F2F2;
-  o
-}
+
 
 
 /*section Les plus populaires*/
 
-#maincontainer2 {
-display: flex;
-justify-content: flex-end;
-align-items: flex-end;
-flex-direction: column ;
-flex-direction: column;
-background-color: #F2F2F2;
-width: 120px;
-padding: 5px 0;
-margin: 5px;
-text-align: center;
-font-size: 15px;
-}
-
-#maincontainer1 figure img {
-  border-radius:20px 20px 0 0;
-  object-fit: cover;
-}
-
-#maincontainer2 figure img {
-  border-radius:20px 0px 0px 20px;
-  object-fit: cover;
-}
-
-/* flexbox indépendantes */
-
-#cannebiere {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: baseline;
-  align-items: flex-start;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow black;
-  width: fit-content;
-}
-
-#port {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: ;
-  align-items: flex-start;
-  background-color: white;
-  margin: auto;
-  border-radius: 20px;
-  box-shadow black;
-}
-
-#mouettes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: ;
-  align-items: flex-start;
-  background-color: white;
-  margin: auto;
-  border-radius: 20px;
-  box-shadow black;
-}
-
-#mer{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: ;
-  align-items: flex-start;
-  background-color: white;
-  margin: auto;
-  border-radius: 20px;
-  box-shadow black;
-}
-
-#panier{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: ;
-  align-items: flex-start;
-  background-color: white;
-  margin: auto;
-  border-radius: 20px;
-  box-shadow black;
-}
-
-#amina {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: ;
-  align-items: flex-start;
-  background-color: white;
-  margin: auto;
-  border-radius: 20px;
-  box-shadow black;
-}
-
-#matin {
-
-}
-
-#hotes {
-
-}
-
-#bleublanc {
-
-}
 
 
 footer {
