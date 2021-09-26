@@ -154,26 +154,49 @@ main {
   background-color: #F2F2F2;
 }
 
+
+/*section Hébergements à Marseille*/
+
 .maincontainer1{
+  display: flex;
+  flex: nowrap;
+}
+
+.maincontainer1 .box {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  margin: 5px;
+}
+
+/*section Les plus populaires*/
+
+.maincontainer2{
   display: flex;
   flex: wrap;
 }
 
-.box {
+.maincontainer2.box {
   width: 300px;
-  height: 300px;
   background-color: white;
-  font-size: 48px;
+  font-size: 18px;
   margin: 5px;
 }
 
-/*section Hébergements à Marseille*/
+/*style des images */
 
+.maincontainer1 img{
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
 
+}
 
-/*section Les plus populaires*/
-
-
+.maincontainer2 img {
+  width: 100%;
+  border-radius: 20px 0px 0px 20px;
+}
 
 footer {
     display: flex ;
