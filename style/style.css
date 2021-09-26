@@ -147,11 +147,11 @@ body ul {
   }
 
 /*main*/
-main {
+/*main {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #F2F2F2;
+  background-color: #F2F2F2;*/
 }
 
 
@@ -159,23 +159,29 @@ main {
 
 .maincontainer1{
   display: flex;
-  flex: nowrap;
+  flex: wrap;
+}
+
+.flexcontainer {
+  display: flex;
+  border-radius: 20px;
 }
 
 .maincontainer1 .box {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 600px;
   background-color: white;
   color: black;
   font-size: 18px;
   margin: 5px;
 }
 
+
 /*section Les plus populaires*/
 
 .maincontainer2{
   display: flex;
-  flex: wrap;
+  flex: nowrap;
 }
 
 .maincontainer2.box {
@@ -189,6 +195,7 @@ main {
 
 .maincontainer1 img{
   width: 100%;
+  max-height: 50%;
   border-radius: 20px 20px 0px 0px;
 
 }
