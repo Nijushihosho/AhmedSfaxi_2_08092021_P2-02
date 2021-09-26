@@ -24,12 +24,12 @@ nav{
     align-items: center;
 }
 
-nav ul{
+nav ul { 
     display: flex ;
     list-style: none;
 }
 
-nav li{
+nav li {
     margin: 0 10px 0 20px;
 }
 
@@ -147,24 +147,26 @@ body ul {
   }
 
 /*main*/
-
-
-/*section Hébergements à Marseille*/
-
-.maincontainer1{
-  display: flex;
-  flex: wrap;
-}
-
 .flexcontainer{
   display: flex;
-  border-radius: 20px;
+  flex-wrap: wrap;
+}
+/*section Hébergements à Marseille*/
+
+/*.maincontainer1 {
+  display: flex;
+  flex: wrap;
+}*/
+
+.box{
+  width: 300px;
+  margin: 5px;
 }
 
 .maincontainer1 .box{
   width: 200px;
-  height: 600px;
-  background-color: white;
+  height: 200px;
+  background-color: #F2F2F2;
   color: black;
   font-size: 18px;
   margin: 5px;
@@ -175,12 +177,13 @@ body ul {
 
 .maincontainer2{
   display: flex;
-  flex: nowrap;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .maincontainer2.box{
-  width: 300px;
-  background-color: white;
+  width: 100px;
+  background-color:#F2F2F2;
   font-size: 18px;
   margin: 5px;
 }
@@ -189,7 +192,6 @@ body ul {
 
 .maincontainer1 img{
   width: 100%;
-  max-height: 50%;
   border-radius: 20px 20px 0px 0px;
 
 }
@@ -209,4 +211,3 @@ footer li {
     list-style: none;
 }
 
-@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
