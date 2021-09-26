@@ -156,12 +156,12 @@ body ul {
   flex: wrap;
 }
 
-.flexcontainer {
+.flexcontainer{
   display: flex;
   border-radius: 20px;
 }
 
-.maincontainer1 .box {
+.maincontainer1 .box{
   width: 200px;
   height: 600px;
   background-color: white;
@@ -178,7 +178,7 @@ body ul {
   flex: nowrap;
 }
 
-.maincontainer2.box {
+.maincontainer2.box{
   width: 300px;
   background-color: white;
   font-size: 18px;
@@ -194,12 +194,12 @@ body ul {
 
 }
 
-.maincontainer2 img {
+.maincontainer2 img{
   width: 100%;
   border-radius: 20px 0px 0px 20px;
 }
 
-footer {
+footer{
     display: flex ;
     justify-content: space-between;
     background-color:#F2F2F2 ;
