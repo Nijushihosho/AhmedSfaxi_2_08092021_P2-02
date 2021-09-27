@@ -183,14 +183,26 @@ body ul {
 .flex-container {
   display: flex;
 }
-/*section Hébergements à Marseille*/
+/*conteneur Hébergements à Marseille*/
+
+/*.titre {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}*/
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
 
 .maincontainer1 {
   flex: 2;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: center;
   height: 600px;
   margin-right: 20px;
@@ -202,13 +214,12 @@ body ul {
   background-color: white;
   color: black;
   font-size: 12px;
-  margin: 1%;
   border-radius: 15px;
   padding: 1%;
 }
 
 
-/*section Les plus populaires*/
+/*conteneur "Les plus populaires"*/
 
 .maincontainer2 {
   flex: 1;
@@ -217,25 +228,31 @@ body ul {
   border-radius: 20px;
 }
 
+.maincontainer2 .box{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: white;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+/* conteneur activités marseille */
+
 .maincontainer3 {
 display: flex 3;
 margin: 20px;
 justify-content: space-around;
 align-items: center;
 }
-  /*flex-wrap: nowrap;
+
+.maincontainer3 .box {
+  display: flex;
+  flex-wrap: nowrap;
   justify-content: flex-start;
-  align-items: flex-end;
-  flex-direction: column;*/
-
-
-/*.maincontainer2 .box{
-  background-color: white;
-  font-size: 12px;
-  margin: 10px;
-  border-radius: 20px;
-  padding: 1%;
-}*/
+  align-content: flex-end;
+}
 
 /*style des images */
 
@@ -262,6 +279,7 @@ box-shadow: black;
 
 footer{
     display: flex ;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color:#F2F2F2 ;
 }
