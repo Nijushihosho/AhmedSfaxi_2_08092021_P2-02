@@ -201,7 +201,7 @@ body ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-;
+  justify-content: space-between;
   align-content: center;
   height: 600px;
   margin-right: 20px;
