@@ -6,9 +6,6 @@
 /**
 * * Methode * CSS rules to specify families font-family: 'Raleway', sans-serif 
 */
-
-* margin: auto;
-
 body {
     font-family: "Raleway"; sans-serif;
     margin: 0;
@@ -18,51 +15,20 @@ nav img {
     height: 80px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav ul { 
+nav ul{
     display: flex ;
     list-style: none;
 }
 
-nav li {
+nav li{
     margin: 0 10px 0 20px;
 }
-
-a:link {
-  text-decoration: none;
-}
-
-/*barre de navigation*/
-
-.topnav {
-  background-color: white;
-  overflow: hidden;
-}
-  
-.topnav a {
-  color: gray;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  border-top: 3px solid transparent;
-}
-
-/* todo */
-.topnav a:hover {
-border-top: 3px solid #0065FC;
-color: #0065FC;
-}
-
-.topnav a.active {
-border-top: 3px solid #0065FC;
-}
-
 
 nav li:last-child {
     color: #0065FC;
@@ -85,29 +51,40 @@ body ul {
     width: 20%;
     margin-bottom: 25px;
   }
+  
+  .icon {
+    padding: 10px;
+    background: #DEEBFF;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
 
-  /*icon de de localisation*/
-  .input-container .fas {
-    background-color: #F2F2F2;
+  ul .fas {
+    padding: 10px;
+    background: #DEEBFF;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 55px;
+    min-width: 50px;
+    text-align: center;
+  }
+
+  form .fas {
+    padding: 10px;
+    background-color: lightgray;
     color: black;
     border-radius: 15px 0 0 15px;
     min-width: 50px;
-    padding: 10px;
     text-align: center;
   }
-/*conteneur global filtres*/
-.input-container2 {
-    display: flex; 
-    justify-content: space-between;
-    margin-bottom: 25px;
-  }
   
-  
-/*style icon information*/
-  .fa-info-circle {
-    color: white;
-    background-color: #0065FC;
-    border-radius: 50px;
+  p .fas {
+    padding: 10px;
+    background: #0065FC;
+    color:white;
+    min-width: 50px;
+    text-align: center;
   }
 
   .input-field {
@@ -117,190 +94,41 @@ body ul {
   }
   
   .input-field:focus {
-    border: 2px solid #F2F2F2;
+    border: 2px solid grey;
   }
   
   /* style des button header */
-
-  /*Bouton rechercher */
-  .input-container .btn {
-    border-radius: 0 15px 15px 0;
-    color: white;
-    background-color: #0065FC;
-    padding: 10px 14px;
-    font-size: 18px;
-    cursor: pointer;
-}
- 
-    /*icons font awesome */ 
-.input-container2 .fas {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 1em;
-  color: #0065FC;
-  background-color: #DEEBFF;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  } 
-
-  /* boutons de filtres */
-
-.input-container2 .btn {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 35px;
-  border: solid 2px;
-  border-color: #F2F2F2;
-  border-radius: 35px;
-  color: black;
-  background: white;
-  font-size: 18px;
-  cursor: pointer;
+  form .btn {
+      background-color: #0065FC;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 0 15px 15px 0;
+      cursor: pointer;
+      width: 80%;
+      opacity: 0.9;
   }
-
-
-
+  
+  
+  .btn {
+    background-color: #0065FC;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
   .btn:hover {
     opacity: 1;
   }
 
 /*main*/
 
-/*couleur de fond*/
- 
-.background {
-  background-color: #F2F2F2;
-  border-radius: 20px;
-}
 
-.background2 {
-  background-color: white;
-}
 
-.flex-container {
-  display: flex;
-}
-/*conteneur Hébergements à Marseille*/
-
-/*.titre {
-  display: flex;
-  justify-content: flex-start
-}*/
-
-/*.box {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-}*/
-
-.maincontainer1 {
-  flex: 2;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-around;
-  align-content: center;
-  height: 600px;
-  margin-right: 20px;
-  padding: 0 20px 0 20px;
-  border-radius: 20px;
-}
-
-.maincontainer1 .box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: flex-start ;
-  background-color: white;
-  color: black;
-  font-size: 12px;
-  border-radius: 15px;
-  padding: 1%;
-  margin: 10px;
-}
-
-.titre {
-  display: flex;
-  justify-content: row;
-  flex-grow: 1;
-  flex-wrap: wrap;
-}
-
-.paragraphe {
-  display: flex;
-  justify-content: row;
-  flex-grow: 1;
-  flex-wrap: wrap;
-  align-content: flex-end;
-}
-/*conteneur "Les plus populaires"*/
-
-.maincontainer2 {
-  flex: 1;
-  height: 600px;
-  margin-right: 10px;
-  border-radius: 20px;
-}
-
-.maincontainer2 .box{
-  display: flex;
-  justify-content: flex-start;
-  align-content: space-around;
-  background-color: white;
-  font-size: 12px;
-  border-radius: 20px;
-  padding: 1%;
-  
-}
-
-/* conteneur activités marseille */
-
-.maincontainer3 {
-display: flex 3;
-margin: 20px;
-justify-content: space-around;
-align-items: center;
-}
-
-.maincontainer3 .box {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-content: flex-end;
-}
-
-/*style des images */
-
-.maincontainer1 img{
-width: 100%;
-height: 120px;
-object-fit: cover;
-background-position: center;
-border-radius: 15px 15px 0px 0px;
-}
-
-.maincontainer2 img{
-  width: 25%;
-  height: 120px;
-  object-fit: cover;
-  object-position: left;
-  border-radius: 20px 0px 0px 20px;
-}
-
-.maincontainer3 img{
-width: 100%;
-height: 120px;
-object-fit: cover;
-border-radius: 20px;
-box-shadow: black;
-}
-
-footer{
+footer {
     display: flex ;
-    flex-wrap: wrap;
     justify-content: space-between;
     background-color:#F2F2F2 ;
 }
@@ -308,4 +136,4 @@ footer{
 footer li {
     list-style: none;
 }
-
+<!--TODO rajouter Mediaqueries-->
