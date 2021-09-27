@@ -187,15 +187,14 @@ body ul {
 
 /*.titre {
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  justify-content: flex-start
 }*/
 
-.box {
+/*.box {
   display: flex;
   justify-content: space-between;
   align-content: center;
-}
+}*/
 
 .maincontainer1 {
   flex: 2;
@@ -210,15 +209,33 @@ body ul {
   border-radius: 20px;
 }
 
-.maincontainer1 .box{
+.maincontainer1 .box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start ;
   background-color: white;
   color: black;
   font-size: 12px;
   border-radius: 15px;
   padding: 1%;
+  margin: 10px;
 }
 
+.titre {
+  display: flex;
+  justify-content: row;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
 
+.paragraphe {
+  display: flex;
+  justify-content: row;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
 /*conteneur "Les plus populaires"*/
 
 .maincontainer2 {
@@ -230,12 +247,13 @@ body ul {
 
 .maincontainer2 .box{
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  justify-content: flex-start;
+  align-content: space-around;
   background-color: white;
   font-size: 12px;
   border-radius: 20px;
   padding: 1%;
+  
 }
 
 /* conteneur activités marseille */
@@ -259,20 +277,23 @@ align-items: center;
 .maincontainer1 img{
 width: 100%;
 height: 120px;
-background-size: cover;
+object-fit: cover;
 background-position: center;
 border-radius: 15px 15px 0px 0px;
 }
 
 .maincontainer2 img{
-  width: 100%;
+  width: 25%;
   height: 120px;
+  object-fit: cover;
+  object-position: left;
   border-radius: 20px 0px 0px 20px;
 }
 
 .maincontainer3 img{
 width: 100%;
 height: 120px;
+object-fit: cover;
 border-radius: 20px;
 box-shadow: black;
 }
