@@ -176,6 +176,10 @@ body ul {
   border-radius: 20px;
 }
 
+.background2 {
+  background-color: white;
+}
+
 .flex-container {
   display: flex;
 }
@@ -183,21 +187,25 @@ body ul {
 
 .maincontainer1 {
   flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
   height: 600px;
-  margin-right: 10px;
+  margin-right: 20px;
+  padding: 0 20px 0 20px;
   border-radius: 20px;
 }
 
-/*#maincontainer1 .box{
-  width: 200px;
-  height: 50%;
+.maincontainer1 .box{
   background-color: white;
   color: black;
   font-size: 12px;
-  margin: 10px;
-  border-radius: 20px;
-  padding: 3px;
-}*/
+  margin: 1%;
+  border-radius: 15px;
+  padding: 1%;
+}
 
 
 /*section Les plus populaires*/
@@ -208,20 +216,25 @@ body ul {
   margin-right: 10px;
   border-radius: 20px;
 }
+
+.maincontainer3 {
+display: flex 3;
+margin: 20px;
+justify-content: space-around;
+align-items: center;
+}
   /*flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: flex-end;
   flex-direction: column;*/
 
 
-/*#maincontainer2 .box{
-  width: 200px;
-  height: 50%;
+/*.maincontainer2 .box{
   background-color: white;
   font-size: 12px;
   margin: 10px;
   border-radius: 20px;
-  padding: 3px;
+  padding: 1%;
 }*/
 
 /*style des images */
@@ -229,13 +242,22 @@ body ul {
 .maincontainer1 img{
 width: 100%;
 height: 120px;
-border-radius: 20px 20px 0px 0px;
+background-size: cover;
+background-position: center;
+border-radius: 15px 15px 0px 0px;
 }
 
 .maincontainer2 img{
   width: 100%;
   height: 120px;
   border-radius: 20px 0px 0px 20px;
+}
+
+.maincontainer3 img{
+width: 100%;
+height: 120px;
+border-radius: 20px;
+box-shadow: black;
 }
 
 footer{
