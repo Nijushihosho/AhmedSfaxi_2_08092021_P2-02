@@ -200,7 +200,7 @@ body ul {
   flex: 2;
   display: flex;
   flex-wrap: wrap;
-  /*flex-direction: ;/*
+  /*flex-direction: ;/*/
   justify-content: space-around;
   align-content: center;
   height: 600px;
