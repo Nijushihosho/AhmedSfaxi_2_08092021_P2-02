@@ -11,8 +11,8 @@
 
 :root {
   --blu: #0065FC;
-  --lightblue: #DEEBFF;
-  --lightgris: #F2F2F2;  
+  --lightblue:#DEEBFF;
+  --lightgris:#F2F2F2;  
 }
 
 body {
@@ -100,20 +100,44 @@ body ul {
     padding: 10px;
     text-align: center;
   }
+
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid #F2F2F2;
+  }
+  
+  /* style du button rechercher */
+
+  /*Bouton rechercher */
+  .input-container .btn {
+    border-radius: 0 20px 20px 0;
+    color: white;
+    background-color: #0065FC;
+    padding: 10px 14px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
 /*conteneur global filtres*/
 .barre-filtre {
     display: flex; 
-    /*flex-wrap: wrap;*/
-    justify-content: space-around; 
+    justify-content: space-between; 
     align-items: center;
-    margin-bottom: 20px;
+    max-width: 70%;
+    margin: 0 20px 20px 20px;
   }
   
   .filtre {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid gray;
+    border: 2px solid #F2F2F2;
     border-radius: 25px;
     }
   
@@ -123,7 +147,8 @@ body ul {
     align-items: center;
     color: #0065FC;
     font-size: 1rem;
-    background-color: yellowgreen;
+    background-color: lightblue;
+    /* *TODO vérifier couleur et calibrage moniteur*/ 
     border-radius: 50%; 
     width: 41px;
     height: 45px;
@@ -143,8 +168,14 @@ body ul {
 
   .filtre span {
     font-weight: bold;
-
     }
+
+  .filtre:hover {
+    opacity: 1;
+    cursor: pointer;
+    background-color: turquoise;
+    }
+
 /*style icone information*/
   .fa-info-circle {
     color: white;
@@ -153,33 +184,12 @@ body ul {
     margin-left: 15px;
   }
 
-  .input-field {
-    width: 100%;
-    padding: 10px;
-    outline: none;
-  }
-  
-  .input-field:focus {
-    border: 2px solid #F2F2F2;
-  }
-  
-  /* style des button header */
-
-  /*Bouton rechercher */
-  .input-container .btn {
-    border-radius: 0 20px 20px 0;
-    color: white;
-    background-color: #0065FC;
-    padding: 10px 14px;
-    font-size: 18px;
-    cursor: pointer;
-}
-
 .info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 25%;
+  margin-bottom: 25px;
 }
  
     /*icons font awesome de barre de filtres */ 
@@ -212,9 +222,7 @@ body ul {
   cursor: pointer;
   }/*
 
-  .btn :hover {
-    opacity: 1;
-  }
+
 
 /*main*/
 
@@ -232,8 +240,8 @@ body ul {
 .flex-container {
   display: flex;
 }
-/*conteneur Hébergements à Marseille*/
 
+/*conteneur Hébergements à Marseille*/
 
 .box {
   display: flex;
@@ -296,7 +304,7 @@ body ul {
   border-radius: 20px;
 }
 
-.maincontainer2 .box{
+.maincontainer2 .box {
   display: flex;
   justify-content: flex-start;
   align-content: flex-end;
