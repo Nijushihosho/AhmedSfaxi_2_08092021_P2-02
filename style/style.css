@@ -185,10 +185,6 @@ body ul {
 }
 /*conteneur Hébergements à Marseille*/
 
-/*.titre {
-  display: flex;
-  justify-content: flex-start
-}*/
 
 /*.box {
   display: flex;
@@ -209,33 +205,39 @@ body ul {
   border-radius: 20px;
 }
 
+.maincontainer1 .titre {
+  flex: 3;
+  display: flex;
+justify-content: space-around;
+align-items: center;
+  height: 50px;
+  width: 30px;
+  margin: 0;
+}
+
 .maincontainer1 .box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: flex-start ;
+  align-content: center;
+  width: 30%;
+  height: 200px;
   background-color: white;
   color: black;
   font-size: 12px;
-  border-radius: 15px;
-  padding: 1%;
+  border-radius: 20px;
+  padding: 5px;
   margin: 10px;
 }
 
-.titre {
-  display: flex;
-  justify-content: row;
-  flex-grow: 1;
-  flex-wrap: wrap;
-}
 
-.paragraphe {
+/*.paragraphe {
   display: flex;
   justify-content: row;
   flex-grow: 1;
   flex-wrap: wrap;
   align-content: flex-end;
-}
+}*/
 /*conteneur "Les plus populaires"*/
 
 .maincontainer2 {
@@ -248,11 +250,13 @@ body ul {
 .maincontainer2 .box{
   display: flex;
   justify-content: flex-start;
-  align-content: space-around;
+  align-content: flex-end;
+  width: 80%;
+  height: 25%;
   background-color: white;
   font-size: 12px;
   border-radius: 20px;
-  padding: 1%;
+  padding: 4px;
   
 }
 
@@ -272,14 +276,22 @@ align-items: center;
   align-content: flex-end;
 }
 
+.maincontainer3 .titre {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 0;
+}
+
 /*style des images */
 
 .maincontainer1 img{
 width: 100%;
-height: 120px;
+height: 100px;
 object-fit: cover;
-background-position: center;
-border-radius: 15px 15px 0px 0px;
+background-size: cover;
+border-radius: 20px 20px 0px 0px;
 }
 
 .maincontainer2 img{
