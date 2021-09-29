@@ -9,8 +9,8 @@
 
 * margin: auto;
 
-.root {
-  --bleue: #0065FC;
+:root {
+  --bleu: #0065FC;
   --lightblue:#deebff;
   --lightgris:#F2F2F2;  
 }
@@ -321,13 +321,11 @@ body ul {
   
 }
 
-
-.etoile .fas .fa-star .bleu {
-color: var(--blu);
+.bleue {
+color: var(--bleue) ;
 }
 
 /* conteneur activités marseille */
-
 .maincontainer3 {
 display: flex 3;
 margin: 20px;
