@@ -249,6 +249,12 @@ body ul {
   align-content: center;
 }
 
+#marseille {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .maincontainer1 {
   flex: 2;
   display: flex;
@@ -275,16 +281,27 @@ body ul {
   border-radius: 20px;
   padding: 5px;
   margin: 10px;
+  box-shadow: darkgrey;
 }
 
 
-.maincontainer1 .titre {
+.maincontainer1.titre {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: space-around;
 }
 
+.maincontainer1.description {
+  display: flex;
+  justify-content: center;
+}
+
+.maincontainer1 i {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
 
 
 .maincontainer1 .paragraphe {
@@ -322,9 +339,12 @@ body ul {
 }
 
 .bleu {
-color: var(--bleu) ;
+color: var(--bleu);
 }
 
+.starbleu {
+  color: blue;
+}
 /* conteneur activités marseille */
 .maincontainer3 {
 display: flex 3;
