@@ -295,10 +295,16 @@ body ul {
   flex-wrap: wrap;
   align-content: flex-end;
 }*/
+
+
 /*conteneur "Les plus populaires"*/
 
 .maincontainer2 {
   flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
   height: 600px;
   margin-right: 10px;
   border-radius: 20px;
@@ -306,10 +312,10 @@ body ul {
 
 .maincontainer2 .box {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-content: flex-end;
-  width: 80%;
-  height: 25%;
+  width: 85%;
+  height: fit-content;
   background-color: white;
   font-size: 12px;
   border-radius: 20px;
