@@ -252,10 +252,10 @@ body ul {
 .maincontainer1 {
   flex: 2;
   display: flex;
-  /*flex-wrap: wrap;*/
-  /*flex-direction: column;*/
+  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-around;
-  align-content: center;
+  align-items: flex-start;
   height: 600px;
   margin-right: 20px;
   padding: 0 20px 0 20px;
@@ -267,7 +267,7 @@ body ul {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
-  width: 66%;
+  width: fit-content;
   height: 200px;
   background-color: white;
   color: black;
@@ -321,8 +321,8 @@ body ul {
   
 }
 
-.bleue {
-color: var(--bleue) ;
+.bleu {
+color: var(--bleu) ;
 }
 
 /* conteneur activités marseille */
