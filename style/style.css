@@ -9,9 +9,9 @@
 
 * margin: auto;
 
-:root {
-  --blu: #0065FC;
-  --lightblue:#DEEBFF;
+.root {
+  --bleue: #0065FC;
+  --lightblue:#deebff;
   --lightgris:#F2F2F2;  
 }
 
@@ -147,7 +147,7 @@ body ul {
     align-items: center;
     color: #0065FC;
     font-size: 1rem;
-    background-color: lightblue;
+    background-color: #deebff;
     /* *TODO vérifier couleur et calibrage moniteur*/ 
     border-radius: 50%; 
     width: 41px;
@@ -262,16 +262,6 @@ body ul {
   border-radius: 20px;
 }
 
-.maincontainer1.titre {
-  flex: 3;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  height: 50px;
-  width: 100%;
-  margin: 0;
-}
-
 .maincontainer1 .box {
   display: flex;
   flex-wrap: wrap;
@@ -288,13 +278,21 @@ body ul {
 }
 
 
-/*.paragraphe {
+.maincontainer1 .titre {
   display: flex;
-  justify-content: row;
-  flex-grow: 1;
   flex-wrap: wrap;
-  align-content: flex-end;
-}*/
+  justify-content: flex-start;
+  align-items: space-around;
+}
+
+
+
+.maincontainer1 .paragraphe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-around;
+}
 
 
 /*conteneur "Les plus populaires"*/
@@ -321,6 +319,11 @@ body ul {
   border-radius: 20px;
   padding: 4px;
   
+}
+
+
+.etoile .fas .fa-star .bleu {
+color: var(--blu);
 }
 
 /* conteneur activités marseille */
