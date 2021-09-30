@@ -4,5 +4,8 @@
     "git.alwaysShowStagedChangesResourceGroup": true,
     "git.allowForcePush": true,
     "git.fetchOnPull": true,
-    "git.pruneOnFetch": true
+    "git.pruneOnFetch": true,
+    "projectManager.git.baseFolders": [
+        "C:\\Users\\nijus\\SparkleShare"
+    ]
 }
