@@ -339,11 +339,7 @@ body ul {
 }
 
 .bleu {
-color: var(--bleu);
-}
-
-.starbleu {
-  color: blue;
+  color: #0065FC;
 }
 /* conteneur activités marseille */
 .maincontainer3 {
