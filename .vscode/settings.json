@@ -3,5 +3,6 @@
     "git.showPushSuccessNotification": true,
     "git.alwaysShowStagedChangesResourceGroup": true,
     "git.allowForcePush": true,
-    "git.fetchOnPull": true
+    "git.fetchOnPull": true,
+    "git.pruneOnFetch": true
 }
