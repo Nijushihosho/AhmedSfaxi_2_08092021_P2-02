@@ -1,4 +1,5 @@
 {
     "git.supportCancellation": true,
-    "git.showPushSuccessNotification": true
+    "git.showPushSuccessNotification": true,
+    "git.alwaysShowStagedChangesResourceGroup": true
 }
