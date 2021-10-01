@@ -250,8 +250,9 @@ body ul {
 
 #marseille {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
 }
 
 .maincontainer1 {
@@ -296,10 +297,10 @@ body ul {
   justify-content: center;
 }
 
-.maincontainer1 i {
+#marseille.box i {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 
@@ -312,6 +313,13 @@ body ul {
 
 
 /*conteneur "Les plus populaires"*/
+
+#populaires {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
 
 .maincontainer2 {
   flex: 1;
