@@ -285,19 +285,19 @@ body ul {
 }
 
 
-.maincontainer1.titre {
+.maincontainer1 .titre {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: space-around;
 }
 
-.maincontainer1.description {
+.maincontainer1 .description {
   display: flex;
   justify-content: center;
 }
 
-#marseille.box i {
+#marseille .box i {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -321,7 +321,7 @@ body ul {
   align-items: flex-start;
 }
 
-#populaires.box i {
+#populaires .box i {
   display: flex;
   justify-content: first baseline;
   align-content:flex-end;
@@ -331,7 +331,7 @@ body ul {
   flex: 1;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   height: 600px;
   margin-right: 10px;
@@ -349,6 +349,12 @@ body ul {
   border-radius: 20px;
   padding: 4px;
   
+}
+
+.maincontainer2 .description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .bleu {
@@ -401,11 +407,10 @@ border-radius: 20px 20px 0px 0px;
 }
 
 .maincontainer3 img{
-width: 100%;
+width: fit-content;
 height: 120px;
 object-fit: cover;
 border-radius: 20px;
-box-shadow: black;
 }
 
 footer{
