@@ -291,7 +291,7 @@ body ul {
   align-items: space-around;
 }*/
 
-.maincontainer1.text {
+.maincontainer1 .text {
   display: flex;
   justify-content: flex-start;
 }
