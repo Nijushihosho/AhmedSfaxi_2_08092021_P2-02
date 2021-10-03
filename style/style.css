@@ -252,6 +252,7 @@ body ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  a
 }
 
 .maincontainer1 {
