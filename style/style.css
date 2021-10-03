@@ -266,7 +266,6 @@ body ul {
 #marseille {
   display: flex;
   justify-content: space-between;
-  align-content: center;
 }
 
 #marseille .box {
