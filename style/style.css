@@ -267,7 +267,7 @@ body ul {
   display: flex;
   flex-wrap: wrap;
   flex-basis: auto;
-  justify-content: space-around;
+  justify-content: space-;
   align-content: flex-start;
 }
 
