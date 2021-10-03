@@ -270,7 +270,7 @@ body ul {
   align-content: center;
 }
 
-#marseille.box {
+#marseille .box {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
