@@ -272,7 +272,7 @@ body ul {
 
 #marseille .box {
   display: flex;
-  /*flex-wrap: wrap;/*
+  /*flex-wrap: wrap;*/
   justify-content: flex-start;
   align-content: center;
   width: fit-content;
