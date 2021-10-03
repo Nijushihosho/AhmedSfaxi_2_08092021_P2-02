@@ -338,7 +338,7 @@ body ul {
   border-radius: 20px;
 }
 
-.maincontainer2 .box {
+.maincontainer2.box {
   display: flex;
   justify-content: space-between;
   align-content: flex-end;
