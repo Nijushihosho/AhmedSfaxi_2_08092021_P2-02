@@ -268,7 +268,7 @@ body ul {
   flex-wrap: wrap;
   flex-basis: auto;
   justify-content: space-between;
-  align-items: flex-end;
+  align-content: flex-end;
 }
 
 #marseille .box {
