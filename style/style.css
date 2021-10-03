@@ -290,7 +290,7 @@ body ul {
   align-items: space-around;
 }*/
 
-.text {
+#.text {
   display: flex;
   justify-content: flex-start;
 }
