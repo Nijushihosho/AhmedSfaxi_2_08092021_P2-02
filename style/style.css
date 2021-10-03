@@ -340,7 +340,7 @@ body ul {
 
 .maincontainer2 .box {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: flex-end;
   width: 85%;
   height: fit-content;
