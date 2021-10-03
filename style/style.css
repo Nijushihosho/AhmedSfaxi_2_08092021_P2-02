@@ -295,7 +295,7 @@ body ul {
   justify-content: flex-start;
 }
 
-#marseille .box i {
+#marseille.box i {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
