@@ -302,7 +302,7 @@ body ul {
 }
 
 
-.maincontainer1 .paragraphe {
+/*.maincontainer1 .paragraphe {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
