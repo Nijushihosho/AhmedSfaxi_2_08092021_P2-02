@@ -271,6 +271,7 @@ body ul {
 .maincontainer1 .box {
   display: flex;
   flex-wrap: wrap;
+  fle
   justify-content: space-around;
   align-content: center;
   width: fit-content;
