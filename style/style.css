@@ -270,7 +270,7 @@ body ul {
   align-content: center;
 }
 
-.maincontainer1 .box {
+.maincontainer1.box {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
