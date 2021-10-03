@@ -265,7 +265,7 @@ body ul {
 
 #marseille {
   display: flex;
-  fl
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
