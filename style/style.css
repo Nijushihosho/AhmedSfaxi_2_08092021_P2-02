@@ -273,7 +273,7 @@ body ul {
 #marseille .box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: ;
+  justify-content: space-around;
   align-content: center;
   width: fit-content;
   background-color: white;
