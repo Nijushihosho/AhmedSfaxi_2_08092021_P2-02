@@ -270,7 +270,18 @@ body ul {
   margin: 10px;
   box-shadow: darkgrey;
 }
+/*.box {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}*/
 
+#marseille {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
 
 /*.maincontainer1 .titre {
   display: flex;
