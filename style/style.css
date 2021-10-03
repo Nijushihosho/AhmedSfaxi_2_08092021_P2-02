@@ -269,7 +269,7 @@ body ul {
   align-content: flex-end;
 }
 
-#marseille.box {
+#marseille .box {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
