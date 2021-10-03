@@ -242,18 +242,6 @@ body ul {
 
 /*conteneur Hébergements à Marseille*/
 
-/*.box {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-}*/
-
-#marseille {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: center;
-}
 
 .maincontainer1 {
   flex: 2;
