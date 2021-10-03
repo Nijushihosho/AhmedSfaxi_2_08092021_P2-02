@@ -242,7 +242,7 @@ body ul {
 
 /*conteneur Hébergements à Marseille*/
 
-.box {
+/*.box {
   display: flex;
   justify-content: space-between;
   align-content: center;
