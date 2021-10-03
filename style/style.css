@@ -256,20 +256,7 @@ body ul {
   border-radius: 20px;
 }
 
-.maincontainer1 .box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: center;
-  width: fit-content;
-  background-color: white;
-  color: black;
-  font-size: 12px;
-  border-radius: 20px;
-  padding: 5px;
-  margin: 10px;
-  box-shadow: darkgrey;
-}
+
 /*.box {
   display: flex;
   justify-content: space-between;
