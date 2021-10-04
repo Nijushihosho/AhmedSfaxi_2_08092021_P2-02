@@ -312,15 +312,16 @@ body ul {
 
 #populaires {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  height: 90%; 
 }
 
 #populaires .box {
   display: flex;
-  justify-content: space-around;
-  align-content: stretch;
+  justify-content: flex-start;
+  align-content: space-between;
   background-color: white;
   font-size: 12px;
   width: 85%;
