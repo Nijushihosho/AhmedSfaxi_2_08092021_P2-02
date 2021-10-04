@@ -247,9 +247,7 @@ body ul {
   flex: 2;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
+  /*flex-direction: column;*/
   height: 600px;
   margin-right: 20px;
   padding: 0 20px 0 20px;
@@ -266,9 +264,8 @@ body ul {
 #marseille {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: auto;
-  justify-content: flex-start;
-  align-content: flex-end;
+  justify-content: space-around;
+  align-content: center;
 }
 
 #marseille .box {
@@ -283,14 +280,7 @@ body ul {
   border-radius: 20px;
   padding: 5px;
   margin: 10px;
-  box-shadow: darkgrey;
 }
-/*.maincontainer1 .titre {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: space-around;
-}*/
 
 #marseille.text {
   display: flex;
