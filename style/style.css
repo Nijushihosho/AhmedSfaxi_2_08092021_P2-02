@@ -64,9 +64,9 @@ border-top: 3px solid #0065FC;
 color: #0065FC;
 }
 
-.topnav a.active {
+/*.topnav a.active {
 border-top: 3px solid #0065FC;
-}
+}*/
 
 
 nav li:last-child {
@@ -131,6 +131,7 @@ body ul {
     align-items: center;
     max-width: 70%;
     margin: 0 20px 20px 20px;
+    font-size: 14px;
   }
   
   .filtre {
@@ -254,13 +255,6 @@ body ul {
   border-radius: 20px;
 }
 
-
-/*.box {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-}*/
-
 #marseille {
   display: flex;
   flex-wrap: wrap;
@@ -271,8 +265,8 @@ body ul {
 #marseille .box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: center;
+  justify-content: first baseline;
+  align-content: stretch;
   background-color:white;
   font-size: 12px;
   width: 30%;
@@ -283,20 +277,21 @@ body ul {
 
 #marseille.text {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: flex-end;
   color: black;
   border-radius: 20px;
   padding: 5px;
   margin: 10px;
 }
 
-#marseille.box i {
+.om {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
-  align-content: flex-start;
+  align-content: flex-end;
 }
-
 /*conteneur "Les plus populaires"*/
 .maincontainer2 {
   flex: 1;
@@ -314,8 +309,8 @@ body ul {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-content: center;
-  height: 90%; 
+  align-content: space-around;
+  height: 80%; 
 }
 
 #populaires .box {
@@ -324,23 +319,25 @@ body ul {
   align-content: space-between;
   background-color: white;
   font-size: 12px;
-  width: 100%;
+  width: 95%;
+  margin: 0px 10px 10px 10px;
   border-radius: 20px;
   padding: 4px;
 }
 
 #populaires.description {
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
 }
 
-#populaires.box i {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-content: flex-end;
+.pop {
+display: flex;
+justify-content: flex-start;
+align-items: baseline;
 }
+
 
 .bleu {
   color: #0065fc;
@@ -353,19 +350,41 @@ body ul {
 /* conteneur activités marseille */
 .maincontainer3 {
 display: flex 3;
+flex-direction: column;
+height: 400px;
+padding: 0 20px 0 20px;
+border-radius: 20px;
 margin: 20px;
 }
 
-.maincontainer3.box {
+
+#activite.box {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-content: center;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  align-content: stretch;
+  background-color:white;
+  font-size: 12px;
+  width: 30%;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px;
+}
+
+#activite.figcaption {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: flex-end;
+color: black;
+border-radius: 20px;
+padding: 5px;
+margin: 10px;
 }
 
 #port {
   display: flex;
-
+  flex-wrap: wrap;
 }
 
 /*style des images */
@@ -379,7 +398,7 @@ border-radius: 20px 20px 0px 0px;
 }
 
 .maincontainer2 img{
-  width: 100%;
+  width: 40%;
   height: 140px;
   object-fit: cover;
   object-position: left;
