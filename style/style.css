@@ -303,8 +303,8 @@ body ul {
   flex: 1;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  /*justify-content: space-between;*/
+  /*align-items: center;*/
   height: 600px;
   margin-right: 10px;
   border-radius: 20px;
@@ -313,33 +313,32 @@ body ul {
 #populaires {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 #populaires .box {
   display: flex;
   justify-content: space-around;
-  align-content: flex-end;
-  width: 85%;
-  height: fit-content;
+  align-content: stretch;
   background-color: white;
   font-size: 12px;
+  width: 85%;
   border-radius: 20px;
   padding: 4px;
-  
-}
-
-#populaires.box i {
-  display: flex;
-  justify-content: flex-start;
-  align-content: flex-end;
 }
 
 #populaires.description {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+#populaires.box i {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: flex-end;
 }
 
 .bleu {
@@ -379,7 +378,7 @@ border-radius: 20px 20px 0px 0px;
 }
 
 .maincontainer2 img{
-  width: fit-content;
+  width: 100%;
   height: 120px;
   object-fit: cover;
   object-position: left;
