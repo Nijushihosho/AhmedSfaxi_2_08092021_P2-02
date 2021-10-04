@@ -371,20 +371,50 @@ margin: 20px;
   margin: 10px;
 }
 
-#activite.figcaption {
+#activite .figcaption {
 display: flex;
-flex-wrap: wrap;
-justify-content: flex-start;
+justify-content: center;
 align-items: flex-end;
 color: black;
 border-radius: 20px;
 padding: 5px;
-margin: 10px;
+margin: 10px;*/
 }
 
-#port {
+#activite {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+#activite#port:nth-child(1) {
+  flex: 2;
+  order: 1;
+}
+
+#activite#pomegues:nth-child(2) {
+  flex: 1;
+  order: 2;
+}
+
+#activite#frioul:nth-child(3) {
+  order: 3;
+  flex: 1;
+}
+
+#activite#calanques:nth-child(4) {
+  order: 4;
+  flex: 2;
+}
+
+#activite#garde:nth-child(5) {
+  order: 5;
+  flex: 1;
+}
+
+#activite#longchamp:nth-last-child(6) {
+  order: 6;
+  flex: 1;
 }
 
 /*style des images */
@@ -407,7 +437,7 @@ border-radius: 20px 20px 0px 0px;
 
 .maincontainer3 img{
 width: fit-content;
-height: 200px;
+height: 300px;
 object-fit: cover;
 object-position: center;
 border-radius: 20px;
@@ -416,7 +446,8 @@ border-radius: 20px;
 footer{
     display: flex ;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     background-color:#F2F2F2 ;
 }
 
