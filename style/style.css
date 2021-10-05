@@ -292,12 +292,6 @@ body ul {
   padding: 5px;
 }
 
-.om {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: flex-end;
-}
 /*conteneur "Les plus populaires"*/
 .maincontainer2 {
   flex: 1;
