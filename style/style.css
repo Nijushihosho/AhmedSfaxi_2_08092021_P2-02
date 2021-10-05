@@ -350,6 +350,7 @@ align-items: baseline;
 /* conteneur activités marseille */
 .maincontainer3 {
 display: flex;
+flex-wrap: wrap;
 /*flex-direction: column;
 justify-content: space-around;
 align-content: space-between;
@@ -387,37 +388,40 @@ margin: 20px;*/
 
 #activite {
   display: flex;
+
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch;
+  height: 200px;
 }
 
 .port:nth-child(1) {
-  display: flex;
-  flex: 2;
+  flex-grow: 2;
   order: 1;
 }
 
-#activite .pomegues:nth-child(2) {
-  display: flex;
-  flex: 1;
+.pomegues:nth-child(2) {
+  flex-grow: 1;
   order: 2;
 }
 
-#activite .frioul:nth-child(3) {
-  flex: 1;
+.frioul:nth-child(3) {
+  flex-grow: 1;
   order: 3;
 }
 
-#activite .calanques:nth-child(4) {
-  flex: 2;
+.calanques:nth-child(4) {
+  flex-grow: 2;
   order: 4;
 }
 
-#activite .garde:nth-child(5) {
-  flex: 1;
+.garde:nth-child(5) {
+  flex-grow: 1;
   order: 5;
 }
 
-#activite .longchamp:nth-child(6) {
-  flex: 1;
+.longchamp :nth-child(6) {
+  flex-grow: 1;
   order: 6;
 }
 
@@ -440,8 +444,7 @@ border-radius: 20px 20px 0px 0px;
 }
 
 .maincontainer3 img{
-width: 100%;
-height: 500px;
+width: 25%;
 object-fit: cover;
 object-position: center;
 border-radius: 20px 20px 0px 0px;
