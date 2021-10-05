@@ -231,10 +231,12 @@ body ul {
 .background {
   background-color: #F2F2F2;
   border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 
 .background2 {
   background-color: white;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 
 .flex-container {
@@ -253,6 +255,7 @@ body ul {
   margin-right: 30px;
   padding: 0 20px 0 20px;
   border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 
 #marseille {
@@ -260,6 +263,7 @@ body ul {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 
 #marseille .box {
@@ -271,6 +275,7 @@ body ul {
   font-size: 12px;
   width: 30%;
   border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
   padding: 5px;
   margin: 10px;
 }
@@ -303,6 +308,7 @@ body ul {
   margin-right: 10px;
   padding: 0 20px 0 20px;
   border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 
 #populaires {
@@ -322,6 +328,7 @@ body ul {
   width: 95%;
   margin: 0px 10px 10px 10px;
   border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
   padding: 4px;
 }
 
@@ -350,7 +357,7 @@ align-items: baseline;
 /* conteneur activités marseille */
 .maincontainer3 {
 display: flex;
-flex-wrap: wrap;
+/*flex-wrap: wrap;/*
 /*flex-direction: column;
 justify-content: space-around;
 align-content: space-between;
@@ -388,11 +395,9 @@ margin: 20px;*/
 
 #activite {
   display: flex;
-
   justify-content: space-around;
   flex-flow: row wrap;
   align-items: stretch;
-  height: 200px;
 }
 
 .port:nth-child(1) {
@@ -420,10 +425,19 @@ margin: 20px;*/
   order: 5;
 }
 
-.longchamp :nth-child(6) {
+.longchamp:nth-child(6) {
   flex-grow: 1;
   order: 6;
 }
+
+#activite .box {
+  width: 25%;
+  flex-direction: column;
+  border-radius: 20px;
+box-shadow: 5px 5px 5px 1px #F2F2F2;
+margin: 20px;
+}
+
 
 /*style des images */
 
@@ -444,7 +458,7 @@ border-radius: 20px 20px 0px 0px;
 }
 
 .maincontainer3 img{
-width: 25%;
+width: 100%;
 object-fit: cover;
 object-position: center;
 border-radius: 20px 20px 0px 0px;
