@@ -273,7 +273,7 @@ body ul {
   align-content: stretch;
   background-color:white;
   font-size: 12px;
-  width: 30%;
+  flex-basis: 30%;
   border-radius: 20px;
   box-shadow: 5px 5px 5px 1px #F2F2F2;
   padding: 5px;
@@ -332,17 +332,18 @@ body ul {
   padding: 4px;
 }
 
-#populaires.description {
+#populaires .description {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-left: 10px;
 }
 
 .pop {
 display: flex;
-justify-content: flex-start;
-align-items: baseline;
+justify-content: flex-end;
+align-items: flex-end;
 }
 
 
@@ -357,14 +358,14 @@ align-items: baseline;
 /* conteneur activités marseille */
 .maincontainer3 {
 display: flex;
-/*flex-wrap: wrap;/*
-/*flex-direction: column;
+/*flex-wrap: wrap;
+flex-direction: column;
 justify-content: space-around;
 align-content: space-between;
-height: 400px;
+height: 400px;*/
 padding: 0 20px 0 20px;
 border-radius: 20px;
-margin: 20px;*/
+margin: 20px;
 }
 
 
@@ -395,39 +396,33 @@ margin: 20px;*/
 
 #activite {
   display: flex;
-  justify-content: space-around;
   flex-flow: row wrap;
-  align-items: stretch;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.port:nth-child(1) {
+.port {
+  flex-grow: 6;
+}
+
+.pomegues {
+  flex: 0,5;
+}
+
+.frioul {
+  flex-grow: 1;
+}
+
+.calanques {
   flex-grow: 2;
-  order: 1;
 }
 
-.pomegues:nth-child(2) {
+.garde {
   flex-grow: 1;
-  order: 2;
 }
 
-.frioul:nth-child(3) {
+.longchamp {
   flex-grow: 1;
-  order: 3;
-}
-
-.calanques:nth-child(4) {
-  flex-grow: 2;
-  order: 4;
-}
-
-.garde:nth-child(5) {
-  flex-grow: 1;
-  order: 5;
-}
-
-.longchamp:nth-child(6) {
-  flex-grow: 1;
-  order: 6;
 }
 
 #activite .box {
@@ -442,7 +437,7 @@ margin: 20px;
 /*style des images */
 
 .maincontainer1 img{
-width: 100%;
+flex-basis: 100%;
 height: 140px;
 object-fit: cover;
 /*background-size: cover;*/
@@ -460,7 +455,6 @@ border-radius: 20px 20px 0px 0px;
 .maincontainer3 img{
 width: 100%;
 object-fit: cover;
-object-position: center;
 border-radius: 20px 20px 0px 0px;
 }
 
