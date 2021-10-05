@@ -349,72 +349,64 @@ align-items: baseline;
 
 /* conteneur activités marseille */
 .maincontainer3 {
-display: flex 3;
-flex-direction: column;
+display: flex;
+/*flex-direction: column;
+justify-content: space-around;
+align-content: space-between;
 height: 400px;
 padding: 0 20px 0 20px;
 border-radius: 20px;
-margin: 20px;
+margin: 20px;*/
 }
 
 
-#activite.box {
+#activite {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: first baseline;
-  align-content: stretch;
+  justify-content: space-around;
+  align-content: flex-start;
   background-color:white;
   font-size: 12px;
-  width: 30%;
+  width: 100%;
+  height: 600px;
   border-radius: 20px;
   padding: 5px;
   margin: 10px;
 }
 
-#activite .figcaption {
-display: flex;
-justify-content: center;
-align-items: flex-end;
-color: black;
-border-radius: 20px;
-padding: 5px;
-margin: 10px;*/
-}
-
 #activite {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: center;
 }
-#activite#port:nth-child(1) {
+
+.port:nth-child(1) {
+  display: flex;
   flex: 2;
   order: 1;
 }
 
-#activite#pomegues:nth-child(2) {
+#activite .pomegues:nth-child(2) {
+  display: flex;
   flex: 1;
   order: 2;
 }
 
-#activite#frioul:nth-child(3) {
+#activite .frioul:nth-child(3) {
+  flex: 1;
   order: 3;
-  flex: 1;
 }
 
-#activite#calanques:nth-child(4) {
-  order: 4;
+#activite .calanques:nth-child(4) {
   flex: 2;
+  order: 4;
 }
 
-#activite#garde:nth-child(5) {
+#activite .garde:nth-child(5) {
+  flex: 1;
   order: 5;
-  flex: 1;
 }
 
-#activite#longchamp:nth-last-child(6) {
-  order: 6;
+#activite .longchamp:nth-child(6) {
   flex: 1;
+  order: 6;
 }
 
 /*style des images */
@@ -436,11 +428,11 @@ border-radius: 20px 20px 0px 0px;
 }
 
 .maincontainer3 img{
-width: fit-content;
+width: 100%;
 height: 300px;
 object-fit: cover;
 object-position: center;
-border-radius: 20px;
+border-radius: 20px 20px 0px 0px;
 }
 
 footer{
