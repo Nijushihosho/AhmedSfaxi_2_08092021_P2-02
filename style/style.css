@@ -353,14 +353,14 @@ align-items: flex-end;
 /* conteneur activités marseille */
 .maincontainer3 {
 display: flex;
-/*flex-wrap: wrap;
-flex-direction: column;
-justify-content: space-around;
-align-content: space-between;
-height: 400px;*/
+flex-wrap: wrap;
+/*justify-content: space-between;
+align-content: center;
+height: 650px;
+width: fit-content;
 padding: 0 20px 0 20px;
 border-radius: 20px;
-margin: 20px;
+margin: 20px;*/
 }
 
 
@@ -390,40 +390,50 @@ margin: 20px;
 }*/
 
 #activite {
-  width: 1600px;
-  height: 600px;
   display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  align-items: flex-end;
-  align-content: flex-start;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-content: space-between;
+  width: 100%;
 }
 
-#activite.box:first-child{
-  flex: 2;
-  height: 800px;
-  width: 414px;
+#activite .port .box :first-child{
+  /*flex: 2;*/
+  height: 500px;
+  width: 394px;
 }
 
-#activite .box :nth-child(2) {
- flex: 0,5;
- align-self: start;
+#activite .pomegues .box :nth-child(2) {
+ /*flex: 1;*/
+ height: 250px;
 }
 
-#activite .box :nth-child(3) {
-  flex-basis: 1;
+#activite .frioul .box :nth-child(3) {
+  /*flex-basis: 1;*/
+  height: 250px;
  }
 
- #activite .box :nth-child(4) {
-   flex: 2;
+ #activite .calanques .box :nth-child(4) {
+   /*flex: 2;*/
+   height: 500px;
  }
 
 #activite .box {
   width: 25%;
   border-radius: 20px;
+ object-fit: cover;
 box-shadow: 5px 5px 5px 1px #F2F2F2;
 margin: 20px;
 }
+
+/*.port .box {
+  height: 500px;
+  width: 394px;
+}
+
+.calanques .box {
+  height: 500px;
+}/*
 
 
 /*style des images */
@@ -447,6 +457,7 @@ border-radius: 20px 20px 0px 0px;
 .maincontainer3 img{
 width: 100%;
 object-fit: cover;
+
 border-radius: 20px 20px 0px 0px;
 }
 
