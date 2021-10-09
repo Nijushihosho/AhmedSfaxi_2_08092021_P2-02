@@ -297,7 +297,7 @@ body ul {
   flex: 1;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: flex-end;
   height: 650px;
   margin-right: 10px;
@@ -306,10 +306,18 @@ body ul {
   box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 
+.titrepop {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+
 #populaires {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: space-around;
   height: 85%; 
 }
@@ -397,26 +405,26 @@ margin: 20px;*/
   width: 100%;
 }
 
-#activite .port .box :first-child{
-  /*flex: 2;*/
+/*#activite .port .box :first-child{
+  flex: 2;
   height: 500px;
   width: 394px;
 }
 
 #activite .pomegues .box :nth-child(2) {
- /*flex: 1;*/
+ flex: 1;
  height: 250px;
 }
 
 #activite .frioul .box :nth-child(3) {
-  /*flex-basis: 1;*/
+  flex-basis: 1;
   height: 250px;
  }
 
  #activite .calanques .box :nth-child(4) {
-   /*flex: 2;*/
+   flex: 2;
    height: 500px;
- }
+ }*/
 
 #activite .box {
   width: 25%;
