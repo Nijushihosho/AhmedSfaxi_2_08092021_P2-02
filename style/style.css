@@ -306,17 +306,39 @@ body ul {
   box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 
+
 .titrepop {
+  flex: 1;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-content: flex-start;
+  justify-content: space-between;
+  align-content: flex-start
 }
+
+.titrepop i {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10px;
+}
+
+/*.titreh2 h2 {
+flex: 1;  
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: flex-start;
+}*/
+
+/*.titreh2 h2 i {
+flex: 1; 
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-end;
+}*/
 
 #populaires {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   justify-content: space-between;
   align-content: space-around;
   height: 85%; 
