@@ -382,6 +382,7 @@ align-items: flex-end;
 
 /* conteneur activités marseille */
 .maincontainer3 {
+ flex: 4; 
 display: flex;
 flex-wrap: wrap;
 /*justify-content: space-between;
@@ -426,46 +427,78 @@ margin: 20px;*/
   align-content: space-between;
   width: 100%;
 }
-
-/*#activite .port .box :first-child{
-  flex: 2;
-  height: 500px;
-  width: 394px;
-}
-
-#activite .pomegues .box :nth-child(2) {
- flex: 1;
- height: 250px;
-}
-
-#activite .frioul .box :nth-child(3) {
-  flex-basis: 1;
-  height: 250px;
- }
-
- #activite .calanques .box :nth-child(4) {
-   flex: 2;
-   height: 500px;
- }*/
-
-#activite .box {
-  width: 25%;
-  border-radius: 20px;
- object-fit: cover;
+/*definition des 3 niveaux de box qui contiennent les vignettes activités*/
+ 
+#activite .box1 {
+display: flex;
+flex-wrap; wrap;
+flex-direction: column;
+width: 20%;
+border-radius: 20px;
+object-fit: cover;
 box-shadow: 5px 5px 5px 1px #F2F2F2;
+background-size: cover;
 margin: 20px;
 }
 
-/*.port .box {
-  height: 500px;
-  width: 394px;
+#activite .box2 {
+  display: flex;
+  flex-wrap; wrap;
+  flex-direction: column;
+  width: 20%;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 5px 5px 5px 1px #F2F2
+  }
+
+  #activite .box3 {
+    display: flex;
+    flex-wrap; wrap;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
+    background-size: cover;
+  }
+
+.port {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+border-radius: 20px;
+object-fit: cover;
+box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 
-.calanques .box {
-  height: 500px;
-}/*
+.pomegue .box1{
+display: flex;
+justify-content: center;  
+width: fit-content;
+border-radius: 20px;
+object-fit: cover;
+box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
 
+.frioul .box1{
+display: flex;  
+width: fit-content;
+}
 
+.calanques .box1 {
+display: flex;
+width: fit-content;
+}
+
+.garde .box1{
+  display: flex;
+  width: fit-content; 
+ }
+
+.longchamp .box1{
+  display: flex;
+  width: fit-content;
+} 
 /*style des images */
 
 .maincontainer1 img{
@@ -477,7 +510,7 @@ border-radius: 20px 20px 0px 0px;
 }
 
 .maincontainer2 img{
-  width: 40%;
+  width: 35%;
   height: 140px;
   object-fit: cover;
   object-position: left;
@@ -486,8 +519,8 @@ border-radius: 20px 20px 0px 0px;
 
 .maincontainer3 img{
 width: 100%;
+height: fit-content;
 object-fit: cover;
-
 border-radius: 20px 20px 0px 0px;
 }
 
