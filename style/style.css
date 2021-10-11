@@ -533,14 +533,11 @@ box-shadow: 5px 5px 5px 1px #F2F2F2;
   padding: 5px;
 }
 
-<<<<<<< Updated upstream
-.box1 .text {
+.box1 .textactivite {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
 } 
-=======
->>>>>>> Stashed changes
 /*style des images */
 
 .maincontainer1 img{
