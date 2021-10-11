@@ -473,35 +473,74 @@ object-fit: cover;
 box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 
-.pomegue .box1{
-display: flex;
-justify-content: center;  
-width: fit-content;
-border-radius: 20px;
-object-fit: cover;
-box-shadow: 5px 5px 5px 1px #F2F2F2;
-}
-
-.frioul .box1{
-display: flex;  
-width: fit-content;
-}
-
-.calanques .box1 {
-display: flex;
-width: fit-content;
-}
-
-.garde .box1{
+.pomegue {
   display: flex;
-  width: fit-content; 
- }
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  align-content: center;
+  background-color:white;
+  font-size: 12px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  padding: 5px;
+}
 
+.calanque {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  align-content: center;
+  background-color:white;
+  font-size: 12px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  padding: 5px;
+}
+
+.garde {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  align-content: center;
+  background-color:white;
+  font-size: 12px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  padding: 5px;
+}
+
+.frioul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  align-content: center;
+  background-color:white;
+  font-size: 12px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  padding: 5px;
+}
+
+.longchamp {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  align-content: center;
+  background-color:white;
+  font-size: 12px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  padding: 5px;
+}
+
+<<<<<<< Updated upstream
 .box1 .text {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
 } 
+=======
+>>>>>>> Stashed changes
 /*style des images */
 
 .maincontainer1 img{
