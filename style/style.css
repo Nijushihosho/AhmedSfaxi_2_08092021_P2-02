@@ -420,7 +420,7 @@ margin: 20px;*/
   margin: 10px;
 }*/
 
-#activite {
+.activite {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -429,20 +429,21 @@ margin: 20px;*/
 }
 /*definition des 3 niveaux de box qui contiennent les vignettes activités*/
  
-#activite .box1 {
-display: flex; 
-flex-wrap: wrap; 
+.activite .box1 {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column; 
 justify-content: first baseline; 
 align-content: stretch; 
 background-color:white; 
 font-size: 12px; 
-flex-basis: 25%; 
+width: 20%; 
 border-radius: 20px; 
 box-shadow: 5px 5px 5px 1px #f2f2f2;
 margin: 10px;  
 }
 
-#activite .box2 {
+.activite .box2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -452,92 +453,32 @@ margin: 10px;
   box-shadow: 5px 5px 5px 1px #F2F2
   }
 
-  #activite .box3 {
+  .activite .box3 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-content: space-between;
-    width: 100%;
+    justify-content: first baseline;
+    flex-basis: auto;
+    align-items: center;
+    align-content: flex-start;
+    width: 23%;
     height: 50%;
     border-radius: 20px;
     object-fit: cover;
     box-shadow: 5px 5px 5px 1px #F2F2F2;
   }
 
-.port {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-border-radius: 20px;
-object-fit: cover;
-box-shadow: 5px 5px 5px 1px #F2F2F2;
-}
-
-.pomegue {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: first baseline;
-  align-content: center;
-  background-color:white;
-  font-size: 12px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px 1px #f2f2f2;
-  padding: 5px;
-}
-
-.calanque {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: first baseline;
-  align-content: center;
-  background-color:white;
-  font-size: 12px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px 1px #f2f2f2;
-  padding: 5px;
-}
-
-.garde {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: first baseline;
-  align-content: center;
-  background-color:white;
-  font-size: 12px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px 1px #f2f2f2;
-  padding: 5px;
-}
-
-.frioul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: first baseline;
-  align-content: center;
-  background-color:white;
-  font-size: 12px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px 1px #f2f2f2;
-  padding: 5px;
-}
-
-.longchamp {
-    display: flex;
-  flex-wrap: wrap;
-  justify-content: first baseline;
-  align-content: center;
-  background-color:white;
-  font-size: 12px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px 1px #f2f2f2;
-  padding: 5px;
-}
-
 .box1 .textactivite {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
 } 
+
+.box3 .textactivite {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
 /*style des images */
 
 .maincontainer1 img{
@@ -558,7 +499,7 @@ border-radius: 20px 20px 0px 0px;
 
 .maincontainer3 img{
 width: 100%;
-height: fit-content;
+height: 500px;
 object-fit: cover;
 border-radius: 20px 20px 0px 0px;
 }
