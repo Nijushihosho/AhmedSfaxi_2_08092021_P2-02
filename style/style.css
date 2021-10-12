@@ -321,21 +321,6 @@ body ul {
   margin-right: 10px;
 }
 
-/*.titreh2 h2 {
-flex: 1;  
-display: flex;
-flex-wrap: wrap;
-justify-content: flex-start;
-align-items: flex-start;
-}*/
-
-/*.titreh2 h2 i {
-flex: 1; 
-display: flex;
-flex-wrap: wrap;
-justify-content: flex-end;
-}*/
-
 #populaires {
   display: flex;
   flex-wrap: wrap;
@@ -393,20 +378,18 @@ flex-wrap: wrap;
   justify-content: flex-start;
   align-content: space-between;
   width: 100%;
+  margin-top: 20px;
 }
 /*definition des 3 niveaux de box qui contiennent les vignettes activités*/
  
 .activite .box1 {
 display: flex;
-flex: 2;
-flex-wrap: wrap;
-flex-direction: column; 
-justify-content: first baseline; 
+flex-flow: row wrap; 
+justify-content: flex-start; 
 align-content: stretch; 
 background-color:white; 
 font-size: 12px; 
 width: 23%;
-height: fit-content; 
 border-radius: 20px; 
 box-shadow: 5px 5px 5px 1px #f2f2f2;
 margin: 15px;  
@@ -424,7 +407,6 @@ margin: 15px;
 
   .activite .box3 {
     display: flex;
-    flex: 1;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
@@ -439,8 +421,8 @@ margin: 15px;
 .box1 .textactivite {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: flex-end;
+  align-content: space-between;
 } 
 
 .box3 .textactivite {
@@ -469,7 +451,7 @@ border-radius: 20px 20px 0px 0px;
 
 .maincontainer3 img{
 width: 100%;
-height: 500px;
+height: 90%;
 object-fit: cover;
 border-radius: 20px 20px 0px 0px;
 }
