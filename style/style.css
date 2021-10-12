@@ -385,40 +385,7 @@ align-items: flex-end;
  flex: 4; 
 display: flex;
 flex-wrap: wrap;
-/*justify-content: space-between;
-align-content: center;
-height: 650px;
-width: fit-content;
-padding: 0 20px 0 20px;
-border-radius: 20px;
-margin: 20px;*/
 }
-
-
-/*#activite {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: center;
-  background-color:white;
-  font-size: 12px;
-  width: 100%;
-  height: 600px;
-  border-radius: 20px;
-  padding: 10px;
-  margin: 60px 0px 50px 0px;
-}
-
-/*#activite.figcaption {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: first baseline;
-  align-items: center;
-  color: black;
-  border-radius: 20px;
-  padding: 5px;
-  margin: 10px;
-}*/
 
 .activite {
   display: flex;
@@ -509,12 +476,18 @@ border-radius: 20px 20px 0px 0px;
 
 footer{
     display: flex ;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
+    align-content: space-between;
     background-color:#F2F2F2 ;
     height: 150px;
 }
+footer .liste {
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-content: center;
+width: 100%;
+} 
 
 footer li {
     list-style: none;
