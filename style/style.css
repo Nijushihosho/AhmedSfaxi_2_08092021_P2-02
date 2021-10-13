@@ -252,7 +252,6 @@ body ul {
   flex: 2;
   display: flex;
   flex-wrap: wrap;
-  /*flex-direction: column;*/
   height: 670px;
   margin-right: 30px;
   padding: 0 20px 0 20px;
@@ -482,4 +481,56 @@ width: 100%;
 footer li {
     list-style: none;
 }
+
+@media screen and (max-width: 500px) {
+  .flex-container {
+    flex-flow: column wrap;
+    width: 100%;
+  }
+
+.info {
+  justify-content: flex-start;
+}
+
+  .maincontainer1 {
+justify-content: center;
+margin-right: 10px;
+width: 100%;
+  }
+
+#marseille {
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+  #marseille .box {
+    width: 100%;
+  }
+
+  .maincontainer3 {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .activite {
+flex-flow: column nowrap;
+width: 100%;
+  }
+
+  .activite .box1 {
+    flex-flow: column nowrap;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .activite .box3 {
+    flex-flow: column nowrap;
+    width: 100%;
+  }
+
+  .flex-container3 {
+flex-flow: row wrap;
+width: 100%;
+  }
 
