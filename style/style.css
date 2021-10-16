@@ -482,25 +482,61 @@ footer li {
     width: 100%;
   }
 
-.btn span {
-  display: none;
-}
-
-.iconemobile {
-  display: block;
-}
-
-.info {
-  flex-flow: column wrap; 
-}
-
-.barre-filtre {
-  flex-flow: row wrap;
-  justify-content: space-around;
+nav {
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-content: space-around;
   align-items: flex-start;
 }
 
-  .maincontainer1 {
+.topnav {
+  flex-flow: row nowrap;
+  justify-items: flex-end;
+  align-self: inherit;
+}
+
+
+.input-container {
+  width: 100%;
+}
+
+.btn span{
+  display: none;
+}
+
+.iconemobile i {
+  display: block;
+}
+
+/*.iconemobile span {
+  display: block;
+}*/
+
+.info {
+  flex-flow: row nowrap; 
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-around;
+}
+.info {
+justify-content: space-between;
+align-content: center;
+}
+
+.barre-filtre {
+  flex-direction: column;
+  justify-content: first baseline;
+  align-content: space-around;
+  align-items: flex-start;
+}
+
+/*.tailleiphone {
+  justify-content: flex-start
+  align-content: flex-start;
+  align-items: flex-start;
+}*/
+
+.maincontainer1 {
 justify-content: center;
 margin-right: 10px;
 width: 100%;
@@ -515,6 +551,7 @@ width: 100%;
   #marseille .box {
     width: 100%;
   }
+  
 
   .maincontainer2 {
     order: -1;
@@ -542,14 +579,18 @@ width: 100%;
     width: 100%;
   }
 
-.flex-container3 {
+/*.flex-container3 {
 flex wrap: wrap;
 justify-content: ;
 border: 3px solid red;
-}
+}*/
+footer {
+  flex-flow: column;
+} 
 
-/*footer .liste {
+footer .liste {
   flex-direction: column nowrap;
   align-content: center;
-}*/
+  background-color: #F2F2F2;
+}
 
