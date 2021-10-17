@@ -29,27 +29,18 @@ nav{
     align-items: center;
 }
 
-nav ul { 
-    display: flex ;
-    list-style: none;
-}
-
-nav li {
-    margin: 0 10px 0 20px;
-}
-
 a :link {
   text-decoration: none;
 }
 
 /*barre de navigation*/
 
-.topnav {
+nav {
   background-color: white;
   overflow: hidden;
 }
   
-.topnav a {
+nav a {
   color: gray;
   text-align: center;
   padding: 15px 16px;
@@ -58,17 +49,12 @@ a :link {
   border-top: 3px solid transparent;
 }
 
-.topnav a:hover {
+nav a:hover {
 border-top: 3px solid #0065FC;
 color: #0065FC;
 }
 
-/*.topnav a.active {
-border-top: 3px solid #0065FC;
-}*/
-
-
-nav li:last-child {
+.mobilenav a {
     color: #0065FC;
 }
 
@@ -483,16 +469,25 @@ footer li {
   }
 
 nav {
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: space-between;
-  align-content: space-around;
-  align-items: flex-start;
+  align-items: center;
+}
+
+.logo {
+  order: -1;
+  align-self: flex-start;
 }
 
 .topnav {
-  flex-flow: row nowrap;
-  justify-items: flex-end;
-  align-self: inherit;
+  order: 1;
+  justify-content: space-around;
+  align-self: flex-end;
+}
+.mobilenav {
+  order: 0;
+  justify-content: center;
+  align-self: center;
 }
 
 
@@ -512,23 +507,20 @@ nav {
   display: block;
 }*/
 
-.info {
-  flex-flow: row nowrap; 
-  justify-content: flex-start;
-  align-items: center;
-  align-content: space-around;
-}
-.info {
-justify-content: space-between;
-align-content: center;
-}
-
 .barre-filtre {
-  flex-direction: column;
-  justify-content: first baseline;
-  align-content: space-around;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-content: space-evenly;
   align-items: flex-start;
 }
+
+.info {
+  flex-flow: row wrap; 
+  justify-content: stretch;
+  align-items: space-between;
+  align-content: space-between;
+}
+
 
 /*.tailleiphone {
   justify-content: flex-start
