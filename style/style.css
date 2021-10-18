@@ -269,7 +269,8 @@ body ul {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-around;
-  height: 85%; 
+  height: 85%;
+  border: 3px solid #00fcef; 
 }
 
 #populaires .box {
@@ -573,7 +574,7 @@ margin: 0 auto;
   border-radius: 20px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
   padding: 5px;
-  margin: 0 auto;
+  margin: 0px 0px 10px 0px;
   width: 390px;
   border: 3px solid red;
 }
@@ -587,6 +588,29 @@ margin: 0 auto;
     justify-content: flex-start;
     width: 100%;
   }
+
+  #populaires .box {
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+    background-color: white;
+    font-size: 12px;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px #F2F2F2
+    padding: 4px;
+    border-bottom: 3px solid #00fc37;
+  }
+  
+  #populaires .description {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 10px;
+    border: 3px solid #0065FC;
+  }  
 
   .maincontainer3 img{
     width: 450px;
