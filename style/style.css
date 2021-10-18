@@ -537,8 +537,8 @@ border-bottom: 3px solid #0065FC;
 
 .maincontainer1 {
 justify-content: center;
-margin-right: 10px;
 width: 100%;
+background-color: white;
   }
 
 #marseille {
@@ -547,9 +547,45 @@ width: 100%;
   width: 100%;
 }
 
-  #marseille .box {
-    width: 100%;
-  }
+#marseille .box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  align-content: stretch;
+  background-color:white;
+  font-size: 12px;
+  flex-basis: 30%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  padding: 5px;
+  margin: 10px;
+}
+#marseille .box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  align-content: stretch;
+  background-color:white;
+  font-size: 12px;
+  flex-basis: 30%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  padding: 5px;
+  margin: 10px;
+}
+#marseille .box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  align-content: stretch;
+  background-color:white;
+  font-size: 12px;
+  flex-basis: 30%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  padding: 5px;
+  margin: 10px;
+}
   
 
   .maincontainer2 {
@@ -558,7 +594,7 @@ width: 100%;
   }
 
   .maincontainer3 {
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
   }
 
