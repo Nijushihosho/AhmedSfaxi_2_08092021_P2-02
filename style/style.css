@@ -160,14 +160,14 @@ body ul {
     color: white;
     background-color: #0065fc;
     border-radius: 50px;
-    margin-left: 15px;
+    margin-right: 5px;
   }
 
 .info {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 25%;
+  max-width: 500px;
   margin-bottom: 25px;
 }
 /*main*/
@@ -470,19 +470,36 @@ footer li {
 
 nav {
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+}
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+  
+.topnav a {
+  color: gray;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-top: 3px solid transparent;
+}
+
+.topnav a:hover {
+border-bottom: 3px solid #0065FC;
 }
 
 .logo {
   order: -1;
-  align-self: flex-start;
+  align-self: center;
 }
 
 .topnav {
   order: 1;
-  justify-content: space-around;
-  align-self: flex-end;
+  justify-content: stretch;
+  align-self: stretch;
 }
 .mobilenav {
   order: 0;
@@ -490,9 +507,9 @@ nav {
   align-self: center;
 }
 
-
 .input-container {
   width: 100%;
+  margin: 0 auto;
 }
 
 .btn span{
@@ -503,30 +520,20 @@ nav {
   display: block;
 }
 
-/*.iconemobile span {
-  display: block;
-}*/
-
 .barre-filtre {
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-content: space-evenly;
-  align-items: flex-start;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 0 auto;
 }
 
-.info {
-  flex-flow: row wrap; 
-  justify-content: stretch;
-  align-items: space-between;
-  align-content: space-between;
-}
-
-
-/*.tailleiphone {
-  justify-content: flex-start
+.boxinfo {
+  flex-flow: row nowrap; 
+  justify-content: center;
   align-content: flex-start;
-  align-items: flex-start;
-}*/
+  align-self: center;
+  margin-top: 10px;
+}
 
 .maincontainer1 {
 justify-content: center;
