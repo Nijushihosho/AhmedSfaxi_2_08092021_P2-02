@@ -548,7 +548,7 @@ margin: 0 auto;
   }
 
 .maincontainer1 img{
-    width: 450px;
+    width: 400px;
     height: 120px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
@@ -557,7 +557,7 @@ margin: 0 auto;
 
 #marseille {
   flex-flow: column nowrap;
-  justify-content: stretch;
+  justify-content: center;
   width: 100%;
   border: 3px solid blueviolet;
   margin: 0 auto;
@@ -575,7 +575,7 @@ margin: 0 auto;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
   padding: 5px;
   margin: 0px 0px 10px 0px;
-  width: 390px;
+  width: 370px;
   border: 3px solid red;
 }
 
@@ -585,7 +585,9 @@ margin: 0 auto;
   }
 
   .maincontainer3 {
-    justify-content: flex-start;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
   }
 
@@ -612,18 +614,10 @@ margin: 0 auto;
     border: 3px solid #0065FC;
   }  
 
-  .maincontainer3 img{
-    width: 450px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
-    }
-     
-
   .activite {
-flex-flow: column nowrap;
-justify-content: stretch;
-width: 100%;
+flex-flow: row wrap;
+justify-content: center;
+width: 370px;
 margin: 0 auto;
   }
 
@@ -634,21 +628,78 @@ justify-content: flex-start;
 align-content: center;
 background-color:white;
 font-size: 12px;
-/*flex-basis: 30%;*/
 border-radius: 20px;
-box-shadow: 5px 5px 5px 1px #
+box-shadow: 5px 5px 5px 1px #F2F2F2;
 padding: 5px;
-/*margin: 10px;*/
-width: 390px;
+width: 370px;
 border: 3px solid red;
-margin: 0 auto;
+margin: 10px;
 }
 
-  .activite .box3 {
-    flex-flow: column nowrap;
-    width: 100%;
-  }
+.activite .box2 {
+display: flex;
+flex-flow: row wrap; 
+justify-content: flex-start;
+align-content: center;
+background-color:white; 
+font-size: 12px; 
+width: 370px;
+margin: 10px;  
+}
 
+.activite .box3 {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-content: center;
+background-color:white;
+font-size: 12px;
+border-radius: 20px;
+box-shadow: 5px 5px 5px 1 #F2F2F2;
+padding: 5px;
+width: 370px;
+border: 3px solid yellow;
+margin: 10px;
+}
+
+.activite .box4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  background-color:white;
+  font-size: 12px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1 #F2F2F2;
+  padding: 5px;
+  width: 370px;
+  border: 3px solid rgb(230, 17, 212);
+  margin: 10px;
+  }
+  
+  .activite .box5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    background-color:white;
+    font-size: 12px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 1 #F2F2F2;
+    padding: 5px;
+    width: 370px;
+    border: 3px solid rgb(0, 255, 128);
+    margin: 10px;
+    }
+    
+
+.maincontainer3 img{
+  width: 370px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+  }
+   
 /*.flex-container3 {
 flex wrap: wrap;
 justify-content: ;
