@@ -283,6 +283,7 @@ body ul {
   border-radius: 20px;
   box-shadow: 5px 5px 5px 1px #F2F2F2;
   padding: 4px;
+  border-bottom: 3px solid #00fc37;
 }
 
 #populaires .description {
@@ -291,13 +292,15 @@ body ul {
   justify-content: space-evenly;
   align-items: flex-start;
   margin-left: 10px;
+  border: 3px solid #0065FC;
 }
-
-.pop {
+/* class qui permet de coller les étoiles en bas dans populaires*/
+/*.pop {
 display: flex;
 justify-content: flex-end;
-align-items: flex-end;
-}
+align-items: baseline;
+border-bottom: 3px solid #fc8f00;
+}*/
 
 
 .bleu {
@@ -577,7 +580,7 @@ margin: 0 auto;
 
   .maincontainer2 {
     order: -1;
-    margin-bottom: 15px;
+    margin-bottom: 0;
   }
 
   .maincontainer3 {
