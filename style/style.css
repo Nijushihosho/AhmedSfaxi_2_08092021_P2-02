@@ -540,6 +540,7 @@ justify-content: flex-start;
 width: 100%;
 background-color: white;
 border: 3px solid forestgreen;
+margin: 0 auto;
   }
 
 .maincontainer1 img{
@@ -555,6 +556,7 @@ border: 3px solid forestgreen;
   justify-content: stretch;
   width: 100%;
   border: 3px solid blueviolet;
+  margin: 0 auto;
 }
 
 #marseille .box{
@@ -568,7 +570,8 @@ border: 3px solid forestgreen;
   border-radius: 20px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
   padding: 5px;
-  /*margin: 10px;*/
+  margin: 0 auto;
+  width: 390px;
   border: 3px solid red;
 }
 
@@ -578,20 +581,41 @@ border: 3px solid forestgreen;
   }
 
   .maincontainer3 {
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
   }
+
+  .maincontainer3 img{
+    width: 450px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    }
+     
 
   .activite {
 flex-flow: column nowrap;
+justify-content: stretch;
 width: 100%;
+margin: 0 auto;
   }
 
   .activite .box1 {
-    flex-flow: column nowrap;
-    width: 100%;
-    margin-left: 0px;
-  }
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-content: center;
+background-color:white;
+font-size: 12px;
+/*flex-basis: 30%;*/
+border-radius: 20px;
+box-shadow: 5px 5px 5px 1px #
+padding: 5px;
+/*margin: 10px;*/
+width: 390px;
+border: 3px solid red;
+margin: 0 auto;
+}
 
   .activite .box3 {
     flex-flow: column nowrap;
