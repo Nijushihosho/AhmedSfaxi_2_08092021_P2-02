@@ -21,6 +21,7 @@ body {
 
 nav img {
     height: 80px;
+    border: 3px solid #fc9700;
 }
 
 nav{
@@ -545,9 +546,14 @@ border: 3px solid #fc9700;
     justify-content: flex-start;
     align-items: center;
     max-width: 100%;
+    height: auto;
     margin: 0 20px 20px 20px;
     font-size: 14px;
 border: 3px solid #0019fc;
+}
+
+.filtre :last-child(4){
+  align-self: flex-end;
 }
   
 .boxinfo {
