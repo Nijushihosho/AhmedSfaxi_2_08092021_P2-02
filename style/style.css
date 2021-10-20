@@ -108,7 +108,7 @@ color: #0065FC;
 
 /*conteneur global filtres*/
 
-.filtres {
+.titrefiltres {
 display: flex;
 flex-flow: row nowrap;
 justify-content: space-around;
@@ -532,32 +532,24 @@ border-bottom: 3px solid #0065FC;
   display: block;
 }
 
-.filtres {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-content: stretch;
-  border: 3px solid #fc9700;
-  }
-  
-  .barre-filtre {
-     display: flex; 
-     justify-content: flex-start; 
-     align-items: center;
-     max-width: 100%;
-     margin: 0 20px 20px 20px;
-     font-size: 14px;
-  border: 3px solid #0019fc;
-  }
-
-
-.barre-filtre {
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: flex-end;
-  margin: 0 auto;
+.titrefiltres {
+flex-flow: column wrap;
+justify-content: space-around;
+align-content: stretch;
+border: 3px solid #fc9700;
 }
 
+
+.barre-filtre { 
+  flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 20px 20px 20px;
+    font-size: 14px;
+border: 3px solid #0019fc;
+}
+  
 .boxinfo {
   flex-flow: row nowrap; 
   justify-content: center;
