@@ -103,6 +103,11 @@ color: #0065FC;
     cursor: pointer;
     box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
+
+.btn2 {
+  display: none;
+}
+
 .iconemobile {
   display: none;
 }
@@ -525,8 +530,16 @@ border-bottom: 3px solid #0065FC;
   margin: 0 auto;
 }
 
-.btn span{
+/*.btn span{
   display: none;
+}*/
+
+.btn  {
+  display: none;
+}
+
+.btn2 {
+display: block;
 }
 
 .iconemobile {
