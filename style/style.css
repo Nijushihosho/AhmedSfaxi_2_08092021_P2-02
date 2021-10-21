@@ -525,6 +525,8 @@ border-bottom: 3px solid #0065FC;
   align-self: center;
 }
 
+/* barre de recherche */
+
 .input-container {
   width: 100%;
   margin: 0 auto;
@@ -546,6 +548,7 @@ display: block;
   display: block;
 }
 
+<<<<<<< Updated upstream
 .titrefiltres {
 flex-flow: column wrap;
 justify-content: space-around;
@@ -555,6 +558,11 @@ border: 3px solid #fc9700;
 
 
 .barre-filtre { 
+=======
+/* barre de filtre */
+
+.barre-filtre {
+>>>>>>> Stashed changes
   flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
@@ -565,10 +573,15 @@ border: 3px solid #fc9700;
 border: 3px solid #0019fc;
 }
 
+<<<<<<< Updated upstream
 .filtre :last-child(4){
   align-self: flex-end;
 }
   
+=======
+/* icone info et commentaire */
+
+>>>>>>> Stashed changes
 .boxinfo {
   flex-flow: row nowrap; 
   justify-content: center;
