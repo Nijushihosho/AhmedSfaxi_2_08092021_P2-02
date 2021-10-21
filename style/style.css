@@ -26,9 +26,9 @@ nav img {
 
 nav{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-content: flex-end;
     align-items: center;
-    align-content: stretch;
     background-color: white;
     overflow: hidden;
 }
@@ -52,7 +52,6 @@ nav a:hover {
 border-top: 3px solid #0065FC;
 color: #0065FC;
 }
-
 
 .mobilenav a {
     color: #0065FC;
