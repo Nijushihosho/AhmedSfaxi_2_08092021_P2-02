@@ -301,7 +301,7 @@ border: 3px solid #0019fc;
 #populaires .description {
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-evenly;
+  justify-content: first baseline;
   align-items: flex-start;
   margin-left: 10px;
   border: 3px solid #0065FC;
@@ -424,6 +424,7 @@ border-radius: 20px 20px 0px 0px;
 
 .maincontainer2 img{
   width: 35%;
+  min-width: 35%;
   height: 140px;
   object-fit: cover;
   object-position: left;
@@ -439,24 +440,21 @@ border-radius: 20px 20px 0px 0px;
 
 .maincontainer3 .box4 img {
 width: 100%;
-max-height: 140px;
-height: auto;
+height: 250px;
 object-fit: cover;
 border-radius: 20px 20px 0px 0px;
 }
 
 .maincontainer3 .box3 img {
 width: 100%;
-max-height: 140px;
-height: auto;
+height: 200px;
 object-fit: cover;
 border-radius: 20px 20px 0px 0px;
 }
 
 .maincontainer3 .box5 img {
   width: 100%;
-  max-height: 140px;
-  height: auto;
+  height: 150px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
   }
