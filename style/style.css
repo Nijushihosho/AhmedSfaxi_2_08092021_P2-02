@@ -545,7 +545,6 @@ display: block;
   display: block;
 }
 
-<<<<<<< Updated upstream
 .titrefiltres {
 flex-flow: column wrap;
 justify-content: space-around;
@@ -555,11 +554,6 @@ border: 3px solid #fc9700;
 
 
 .barre-filtre { 
-=======
-/* barre de filtre */
-
-.barre-filtre {
->>>>>>> Stashed changes
   flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
@@ -570,15 +564,10 @@ border: 3px solid #fc9700;
 border: 3px solid #0019fc;
 }
 
-<<<<<<< Updated upstream
 .filtre :last-child(4){
   align-self: flex-end;
 }
   
-=======
-/* icone info et commentaire */
-
->>>>>>> Stashed changes
 .boxinfo {
   flex-flow: row nowrap; 
   justify-content: center;
@@ -665,6 +654,7 @@ margin: 0 auto;
 .activite {
 flex-flow: row wrap;
 justify-content: center;
+align-content: space-between;
 width: 370px;
 margin: 0 auto;
   }
@@ -681,18 +671,18 @@ box-shadow: 5px 5px 5px 1px #F2F2F2;
 padding: 5px;
 width: 370px;
 border: 3px solid red;
-margin: 10px;
+margin: 5px;
 }
 
 .activite .box2 {
 display: flex;
-flex-flow: row wrap; 
-justify-content: flex-start;
-align-content: center;
+flex-wrap: wrap; 
+justify-content: space-around;
+align-items: center;
 background-color:white; 
 font-size: 12px; 
 width: 370px;
-margin: 10px;  
+margin: 0 auto;  
 }
 
 .activite .box3 {
@@ -707,7 +697,7 @@ box-shadow: 5px 5px 5px 1 #F2F2F2;
 padding: 5px;
 width: 370px;
 border: 3px solid yellow;
-margin: 10px;
+margin:10px;
 }
 
 .activite .box4 {
@@ -722,7 +712,7 @@ margin: 10px;
   padding: 5px;
   width: 370px;
   border: 3px solid rgb(230, 17, 212);
-  margin: 10px;
+  margin-top: 10px;
   }
   
   .activite .box5 {
@@ -737,13 +727,13 @@ margin: 10px;
     padding: 5px;
     width: 370px;
     border: 3px solid rgb(0, 255, 128);
-    margin: 10px;
+    margin-top: 10px;
     }
     
 
 .maincontainer3 img{
   width: 370px;
-  height: 120px;
+  max-height: 120px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
   }
