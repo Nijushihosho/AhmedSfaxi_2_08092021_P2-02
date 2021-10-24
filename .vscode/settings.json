@@ -123,5 +123,6 @@
         "pomegues",
         "Pomègues",
         "Reservia"
-    ]
+    ],
+    "svn.ignoreMissingSvnWarning": true
 }

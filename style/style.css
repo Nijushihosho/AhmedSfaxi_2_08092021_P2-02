@@ -53,6 +53,10 @@ border-top: 3px solid #0065FC;
 color: #0065FC;
 }
 
+.topnav {
+  margin-left: 70%;
+}
+
 .mobilenav a {
     color: #0065FC;
 }
@@ -491,6 +495,7 @@ nav {
 .topnav {
   background-color: white;
   overflow: hidden;
+  margin: auto;
 }
   
 .topnav a {
