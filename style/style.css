@@ -121,27 +121,30 @@ color: #0065FC;
 display: flex;
 flex-flow: row nowrap;
 justify-content: space-around;
-align-content: stretch;
+align-items: center;
+align-content: center;
+margin: 0 auto;
 border: 3px solid #fc9700;
 }
 
 
 .barre-filtre {
     display: flex; 
-    justify-content: flex-start; 
+    justify-content: space-between; 
     align-items: center;
-    max-width: 100%;
-    margin: 0 20px 20px 20px;
+    /*margin: 0 20px 20px 20px;*/
+    margin: 0 auto;
     font-size: 14px;
 border: 3px solid #0019fc;
 }
   
   .filtre {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     border: 2px solid #F2F2F2;
     border-radius: 25px;
+    margin: 0 auto;
     }
   
   .filtre i {
@@ -553,7 +556,7 @@ justify-content: space-around;
 align-content: stretch;
 border: 3px solid #fc9700;
 }
-
+  
 
 .barre-filtre { 
   flex-flow: row wrap;
