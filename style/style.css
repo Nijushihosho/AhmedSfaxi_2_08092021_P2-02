@@ -489,27 +489,10 @@ footer li {
 
 nav {
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
-.topnav {
-  background-color: white;
-  overflow: hidden;
-  margin: auto;
-}
   
-.topnav a {
-  color: gray;
-  text-align: center;
-  padding: 15px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  border-top: 3px solid transparent;
-}
-
-.topnav a:hover {
-border-bottom: 3px solid #0065FC;
-}
 
 .logo {
   order: -1;
@@ -518,8 +501,11 @@ border-bottom: 3px solid #0065FC;
 
 .topnav {
   order: 1;
-  justify-content: stretch;
-  align-self: stretch;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 80%;
+  align-content: center;
+  border-bottom: 3px solid #F2F2F2 ;
 }
 .mobilenav {
   order: 0;
@@ -527,16 +513,25 @@ border-bottom: 3px solid #0065FC;
   align-self: center;
 }
 
+.topnav a {
+  color: gray;
+  align-self: flex-end;
+  padding: 15px 16px;
+  /*text-decoration: none;*/
+  font-size: 17px;
+  border-top: 3px solid transparent;
+}
+
+.topnav:hover {
+border-bottom: 3px solid #0065FC;
+width: 80%;
+}
 /* barre de recherche */
 
 .input-container {
-  width: 100%;
+  justify-content: center;
   margin: 0 auto;
 }
-
-/*.btn span{
-  display: none;
-}*/
 
 .btn  {
   display: none;
@@ -544,10 +539,12 @@ border-bottom: 3px solid #0065FC;
 
 .btn2 {
 display: block;
+background-color: #0065FC;
 }
 
-.iconemobile {
-  display: block;
+.btn2 .fas {
+  color: white;
+  background-color: #0065fc;
 }
 
 .titrefiltres {
