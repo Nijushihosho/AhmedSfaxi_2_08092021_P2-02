@@ -496,6 +496,7 @@ nav {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+  align-content: space-around;
   border: 3px solid #00c1fc;
 }
   
@@ -507,13 +508,14 @@ nav {
 
 .topnav {
   order: 1;
-  flex-flow: row wrap;
+  flex-flow: column nowrap;
   width: 100%;
-  justify-content: center;
-  align-self: center;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: flex-start;
   border-bottom: 3px solid #F2F2F2;
   border: 3px solid #00fc71;
-  margin: 0 auto;
+  margin: 0;
   height: 45px;
 }
 .mobilenav {
@@ -524,30 +526,45 @@ nav {
   overflow: hidden;
 }
 
-.topnav a:hover  {
-  flex-flow: row wrap;
-  width: 100%;
+.topnav a {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 50%;
   justify-content: center;
-  align-self: center;
-  border-bottom: 3px solid transparent;
-  border: 3px solid #fc0076;
-  margin: 0 auto;
+  align-items: center;
+  border-bottom: 3px solid #F2F2F2;
+  border: 3px solid #fc004c;
+  margin: 0;
   height: 45px;
   border-bottom: 3px solid #0065fc;
 }
 
-/*.topnav a.active  {
+
+.topnav a:hover {
   display: flex;
-  color: gray;
-  justify-content: flex-start;
+  flex-flow: column nowrap;
+  width: 50%;
+  justify-content: center;
   align-items: center;
-  align-content: flex-start;
-  /*text-decoration: none;*/
-  font-size: 17px;
-  border-top: 3px solid transparent
+  border-bottom: 3px solid transparent;
   border: 3px solid #fc0076;
-  width: 100%;
-}/*
+  margin: 0;
+  height: 45px;
+  border-bottom: 3px solid #0065fc;
+}
+
+/*.topnav a.active:hover  {
+ flex-flow: row nowrap;
+ width: 100%;
+ justify-content: flex-start;
+ align-content: center;
+ align-self: center;
+ border-bottom: 3px solid transparent;
+ border: 3px solid #fc0076;
+ height: 45px;
+ border-bottom: 3px solid #0065fc;
+}*/
+
 /* barre de recherche */
 
 .input-container {
