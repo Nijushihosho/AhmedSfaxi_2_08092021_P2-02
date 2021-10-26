@@ -597,21 +597,26 @@ display: block;
 background-color: #0065FC;
 border-radius: 15px;
 border: 3px solid #fc7a00;
+width: 47px;
 }
 
-.btn2 .fas {
+.btn2 .fas.fa-search {
+  display: block;
   color: white;
   background-color: #0065fc;
+  border-radius: 15px;
   border: 3px solid #fc0000;
+  width: 95%;
+  height: 48x;
 }
 
 .titrefiltres {
 flex-flow: column wrap;
-justify-content: space-around;
-align-content: stretch;
+justify-content: flex-start;
+align-items: flex-start;
+align-content: flex-start;
 border: 3px solid #fc9700;
 }
-  
 
 .barre-filtre { 
   flex-flow: row wrap;
@@ -757,7 +762,7 @@ box-shadow: 5px 5px 5px 1 #F2F2F2;
 padding: 5px;
 width: 370px;
 border: 3px solid yellow;
-margin:10px;
+margin: 10px 0px 10px 0px;
 }
 
 .activite .box4 {
