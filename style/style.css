@@ -120,20 +120,19 @@ color: #0065FC;
 .titrefiltres {
 display: flex;
 flex-flow: row nowrap;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
-align-content: center;
-margin: 0 auto;
 border: 3px solid #fc9700;
 }
 
 
 .barre-filtre {
     display: flex; 
-    justify-content: space-between; 
+    justify-content: space-around; 
     align-items: center;
     /*margin: 0 20px 20px 20px;*/
-    margin: 0 auto;
+    margin-right: 140px;
+    /*margin: 0 auto;*/
     font-size: 14px;
 border: 3px solid #0019fc;
 }
@@ -144,7 +143,7 @@ border: 3px solid #0019fc;
     align-items: center;
     border: 2px solid #F2F2F2;
     border-radius: 25px;
-    margin: 0 auto;
+    margin-right: 17px;
     }
   
   .filtre i {
@@ -161,7 +160,7 @@ border: 3px solid #0019fc;
 
   .filtre span {
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
     font-weight: bold;
     margin: 0 10px 0 10px;
     }
@@ -484,7 +483,7 @@ footer li {
     list-style: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .flex-container {
     flex-flow: column wrap;
     width: 100%;
@@ -494,6 +493,7 @@ nav {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+  border: 3px solid #00c1fc;
 }
   
 
@@ -504,25 +504,35 @@ nav {
 
 .topnav {
   order: 1;
-  overflow: hidden;
-  margin: 0 auto;
-  width: 80%;
-  align-content: center;
-  border-bottom: 3px solid #F2F2F2 ;
+  /*overflow: hidden;*/
+  /*width: 100%;*/
+  justify-content: flex-start;
+  align-self: stretch;
+  border-bottom: 3px solid #F2F2F2;
+  border: 3px solid #00fc71;
 }
 .mobilenav {
   order: 0;
   justify-content: center;
   align-self: center;
+  border: 3px solid #b9fc00;
 }
 
 .topnav a {
   color: gray;
-  align-self: flex-end;
-  padding: 15px 16px;
+  align-self: center;
+  /*padding: 15px 16px;*/
   /*text-decoration: none;*/
   font-size: 17px;
   border-top: 3px solid transparent;
+  border: 3px solid #fc0076;
+  width: 100%;
+  height: auto;
+  min-height: 56px;
+}
+
+.topnav a.active {
+
 }
 
 .topnav:hover {
@@ -534,6 +544,7 @@ width: 80%;
 .input-container {
   justify-content: center;
   margin: 0 auto;
+border: 3px solid #df00fc;
 }
 
 .btn  {
@@ -543,11 +554,14 @@ width: 80%;
 .btn2 {
 display: block;
 background-color: #0065FC;
+border-radius: 15px;
+border: 3px solid #fc7a00;
 }
 
 .btn2 .fas {
   color: white;
   background-color: #0065fc;
+  border: 3px solid #fc0000;
 }
 
 .titrefiltres {
