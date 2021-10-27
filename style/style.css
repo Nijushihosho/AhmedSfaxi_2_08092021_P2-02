@@ -7,7 +7,7 @@
 * * Methode * CSS rules to specify families font-family: 'Raleway', sans-serif 
 */
 
-* margin: auto;
+* margin: 0 auto;
 
 :root {
   --bleu: #0065fc;
@@ -20,13 +20,13 @@ body {
 }
 
 nav img {
-    height: 80px;
+  height: 80px;
 }
 
 nav{
     display: flex;
-    justify-content: space-between;
-    align-content: flex-end;
+    justify-content: flex-end;
+    /*align-content: space-between;*/
     align-items: center;
     background-color: white;
     overflow: hidden;
@@ -52,9 +52,24 @@ border-top: 3px solid #0065FC;
 color: #0065FC;
 }
 
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
 /*.topnav {
-  margin-left: 70%;
+display: flex;
+justify-content: flex-end;
+border: 3px solid #fc8f00;
+}
+
+.topnav a {
+display: flex;
+justify-content: flex-end;
+border: 3px solid #6100fc;
 }*/
+
 
 .mobilenav a {
     color: #0065FC;
@@ -836,8 +851,8 @@ footer .liste {
 
 @media screen and (min-width:600px) (max-width: 992px) {
   .flex-container {
-    flex-flow: row nowrap;
-    width: 100%;
+   /* flex-flow: row nowrap;
+    width: 100%;*/
   }
 
  /* nav {
@@ -850,21 +865,10 @@ footer .liste {
 }*/
 
   .topnav {
-  margin-left: 0px;
+  margin-left: 0 auto;
+  height: 45px;
+  width: 100%;
   }
-
-  /*.topnav a {
-    display: flex;
-    flex-flow: row nowrap;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 3px solid #F2F2F2;
-    /*border: 3px solid #fc004c;*/
-    margin: 0 auto;
-    /*border-bottom: 3px solid #0065fc;*/
-  }*/
-
 
 
   .activite .box2 {
