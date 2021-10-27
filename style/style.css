@@ -52,9 +52,9 @@ border-top: 3px solid #0065FC;
 color: #0065FC;
 }
 
-.topnav {
+/*.topnav {
   margin-left: 70%;
-}
+}*/
 
 .mobilenav a {
     color: #0065FC;
@@ -667,10 +667,11 @@ margin: 0 auto;
   }
 
 .maincontainer1 img{
-    width: 400px;
+    width: 320px;
     height: 120px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
+    border: 3px solid #00fcd2;
     }
      
 
@@ -679,6 +680,7 @@ margin: 0 auto;
   justify-content: center;
   width: 100%;
   margin: 0 auto;
+  border: 3px solid #fc0000;
 }
 
 #marseille .box{
@@ -693,7 +695,8 @@ margin: 0 auto;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
   padding: 5px;
   margin: 0px 0px 10px 0px;
-  width: 370px;
+  /*width: 370px;*/
+  border: 3px solid #2600fc;
 }
 
   .maincontainer2 {
@@ -748,7 +751,7 @@ border-radius: 20px;
 box-shadow: 5px 5px 5px 1px #F2F2F2;
 padding: 5px;
 width: 370px;
-/*border: 3px solid red;*/
+border: 3px solid red;
 margin: 5px;
 }
 
@@ -774,7 +777,7 @@ border-radius: 20px;
 box-shadow: 5px 5px 5px 1 #F2F2F2;
 padding: 5px;
 width: 370px;
-/*border: 3px solid yellow;*/
+border: 3px solid yellow;
 margin: 10px 0px 10px 0px;
 }
 
@@ -789,7 +792,7 @@ margin: 10px 0px 10px 0px;
   box-shadow: 5px 5px 5px 1 #F2F2F2;
   padding: 5px;
   width: 370px;
-  /*border: 3px solid rgb(230, 17, 212);*/
+  border: 3px solid rgb(230, 17, 212);
   margin-top: 10px;
   }
   
@@ -804,7 +807,7 @@ margin: 10px 0px 10px 0px;
     box-shadow: 5px 5px 5px 1 #F2F2F2;
     padding: 5px;
     width: 370px;
-  /*  border: 3px solid rgb(0, 255, 128);*/
+  border: 3px solid rgb(0, 255, 128);
     margin-top: 10px;
     }
     
@@ -837,11 +840,33 @@ footer .liste {
     width: 100%;
   }
 
+ /* nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    overflow: hidden;
+}*/
+
   .topnav {
-  display: flex;
-  flex-flow: row nowrap;  
-  margin: 0;
+  margin-left: 0px;
   }
+
+  /*.topnav a {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #F2F2F2;
+    /*border: 3px solid #fc004c;*/
+    margin: 0 auto;
+    /*border-bottom: 3px solid #0065fc;*/
+  }*/
+
+
+
   .activite .box2 {
     display: flex;
     flex-flow: column wrap;
