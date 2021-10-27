@@ -21,7 +21,6 @@ body {
 
 nav img {
     height: 80px;
-    border: 3px solid #fc9700;
 }
 
 nav{
@@ -123,8 +122,8 @@ display: flex;
 flex-flow: row nowrap;
 justify-content: flex-start;
 align-items: center;
-border: 3px solid #fc9700;
 margin-right: 17px;
+margin-bottom: 20px;
 }
 
 
@@ -132,11 +131,10 @@ margin-right: 17px;
     display: flex; 
     justify-content: space-around; 
     align-items: center;
-    /*margin: 0 20px 0px 20px;
+    /*margin: 0 20px 20px 20px;/*
     /*margin: 0 auto;*/
     font-size: 14px;
     width: 70%;
-border: 3px solid #0019fc;
 }
   
   .filtre {
@@ -289,7 +287,6 @@ border: 3px solid #0019fc;
   justify-content: space-between;
   align-content: space-around;
   height: 85%;
-  border: 3px solid #00fcef; 
 }
 
 #populaires .box {
@@ -303,7 +300,6 @@ border: 3px solid #0019fc;
   border-radius: 20px;
   box-shadow: 5px 5px 5px 1px #F2F2F2;
   padding: 4px;
-  border-bottom: 3px solid #00fc37;
 }
 
 #populaires .description {
@@ -312,7 +308,6 @@ border: 3px solid #0019fc;
   justify-content: first baseline;
   align-items: flex-start;
   margin-left: 10px;
-  border: 3px solid #0065FC;
 }
 /* class qui permet de coller les étoiles en bas dans populaires*/
 /*.pop {
@@ -345,7 +340,7 @@ margin-top: 40px;
   justify-content: space-around;
   align-content: center;
   width: 100%;
-  margin-top: 20px;
+  margin: 20px 20px;
 }
 /*definition des 3 niveaux de box qui contiennent les vignettes activités*/
  
@@ -497,7 +492,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   align-content: space-around;
-  border: 3px solid #00c1fc;
+  border-bottom: 2px solid #F2F2F2;
+  /*border: 3px solid #00c1fc;*/
 }
   
 
@@ -508,13 +504,14 @@ nav {
 
 .topnav {
   order: 1;
-  flex-flow: column nowrap;
+  display: flex;
+  flex-flow: row nowrap;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  align-content: flex-start;
-  border-bottom: 3px solid #F2F2F2;
-  border: 3px solid #00fc71;
+  /*align-content: flex-start;*/
+  /*border-bottom: 3px solid #F2F2F2;*/
+  /*border: 3px solid #00fc71;*/
   margin: 0;
   height: 45px;
 }
@@ -522,7 +519,6 @@ nav {
   order: 0;
   justify-content: center;
   align-self: center;
-  border: 3px solid #b9fc00;
   overflow: hidden;
 }
 
@@ -533,24 +529,25 @@ nav {
   justify-content: center;
   align-items: center;
   border-bottom: 3px solid #F2F2F2;
-  border: 3px solid #fc004c;
+  /*border: 3px solid #fc004c;*/
   margin: 0;
   height: 45px;
-  border-bottom: 3px solid #0065fc;
+  /*border-bottom: 3px solid #0065fc;*/
 }
 
 
 .topnav a:hover {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
   width: 50%;
   justify-content: center;
   align-items: center;
   border-bottom: 3px solid transparent;
-  border: 3px solid #fc0076;
+  /*border: 3px solid #fc0076;*/
   margin: 0;
   height: 45px;
   border-bottom: 3px solid #0065fc;
+  border-top: none;
 }
 
 /*.topnav a.active:hover  {
@@ -638,7 +635,6 @@ flex-flow: column wrap;
 justify-content: flex-start;
 align-items: flex-start;
 align-content: flex-start;
-border: 3px solid #fc9700;
 }
 
 .barre-filtre { 
@@ -649,7 +645,6 @@ border: 3px solid #fc9700;
     height: auto;
     margin: 0 20px 20px 20px;
     font-size: 14px;
-border: 3px solid #0019fc;
 }
 
 .filtre :last-child(4){
@@ -668,7 +663,6 @@ border: 3px solid #0019fc;
 justify-content: flex-start;
 width: 100%;
 background-color: white;
-border: 3px solid forestgreen;
 margin: 0 auto;
   }
 
@@ -684,7 +678,6 @@ margin: 0 auto;
   flex-flow: column nowrap;
   justify-content: center;
   width: 100%;
-  border: 3px solid blueviolet;
   margin: 0 auto;
 }
 
@@ -701,7 +694,6 @@ margin: 0 auto;
   padding: 5px;
   margin: 0px 0px 10px 0px;
   width: 370px;
-  border: 3px solid red;
 }
 
   .maincontainer2 {
@@ -727,7 +719,6 @@ margin: 0 auto;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 1px #F2F2F2
     padding: 4px;
-    border-bottom: 3px solid #00fc37;
   }
   
   #populaires .description {
@@ -736,7 +727,6 @@ margin: 0 auto;
     justify-content: space-evenly;
     align-items: flex-start;
     margin-left: 10px;
-    border: 3px solid #0065FC;
   }  
 
 .activite {
@@ -758,7 +748,7 @@ border-radius: 20px;
 box-shadow: 5px 5px 5px 1px #F2F2F2;
 padding: 5px;
 width: 370px;
-border: 3px solid red;
+/*border: 3px solid red;*/
 margin: 5px;
 }
 
@@ -784,7 +774,7 @@ border-radius: 20px;
 box-shadow: 5px 5px 5px 1 #F2F2F2;
 padding: 5px;
 width: 370px;
-border: 3px solid yellow;
+/*border: 3px solid yellow;*/
 margin: 10px 0px 10px 0px;
 }
 
@@ -799,7 +789,7 @@ margin: 10px 0px 10px 0px;
   box-shadow: 5px 5px 5px 1 #F2F2F2;
   padding: 5px;
   width: 370px;
-  border: 3px solid rgb(230, 17, 212);
+  /*border: 3px solid rgb(230, 17, 212);*/
   margin-top: 10px;
   }
   
@@ -814,7 +804,7 @@ margin: 10px 0px 10px 0px;
     box-shadow: 5px 5px 5px 1 #F2F2F2;
     padding: 5px;
     width: 370px;
-    border: 3px solid rgb(0, 255, 128);
+  /*  border: 3px solid rgb(0, 255, 128);*/
     margin-top: 10px;
     }
     
@@ -840,4 +830,17 @@ footer .liste {
   align-content: center;
   background-color: #F2F2F2;
 }
+
+@media screen and (min-width:600px) (max-width: 992px) {
+  .flex-container {
+    flex-flow: row nowrap;
+    width: 100%;
+  }
+
+
+  .topnav {
+   display: flex;
+  flex-flow: row nowrap;  
+  margin: 0;
+  }
 
