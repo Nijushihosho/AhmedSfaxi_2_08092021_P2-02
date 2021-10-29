@@ -689,7 +689,6 @@ margin: 0 auto;
     border: 3px solid #00fcd2;
     }
      
-
 #marseille {
   flex-flow: column nowrap;
   justify-content: center;
@@ -713,20 +712,19 @@ margin: 0 auto;
   /*width: 370px;*/
   border: 3px solid #2600fc;
 }
-
-  .maincontainer2 {
+.maincontainer2 {
     order: -1;
     margin-bottom: 0;
   }
 
-  .maincontainer3 {
+.maincontainer3 {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
   }
 
-  #populaires .box {
+#populaires .box {
     display: flex;
     justify-content: flex-start;
     align-content: space-between;
@@ -739,7 +737,7 @@ margin: 0 auto;
     padding: 4px;
   }
   
-  #populaires .description {
+#populaires .description {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
@@ -839,6 +837,7 @@ flex wrap: wrap;
 justify-content: ;
 border: 3px solid red;
 }*/
+
 footer {
   flex-flow: column;
 } 
@@ -851,18 +850,9 @@ footer .liste {
 
 @media screen and (min-width:600px) (max-width: 992px) {
   .flex-container {
-   /* flex-flow: row nowrap;
-    width: 100%;*/
+   flex-flow: column wrap;
+    width: 100%;
   }
-
- /* nav {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-    background-color: white;
-    overflow: hidden;
-}*/
 
   .topnav {
   margin-left: 0 auto;
@@ -870,36 +860,44 @@ footer .liste {
   width: 100%;
   }
 
+  .activite {
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-around;
+  /*width: 100%;*/
+  /*margin: 0 auto;*/
+  border: 3px solid rgb(68, 0, 255);
+  }
 
-  .activite .box2 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-    align-items: ;
-    background-color:white; 
-    font-size: 12px; 
-    width: 100%;
-    height: auto; 
-    }
-    
-  .activite .box3 {
-    display: flex;
-    justify-content: space-between;
-    align-content: stretch;
-    background-color:white;
-    font-size: 12px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px 1 #F2F2F2;
-    padding: 5px;
-    width: 100%;
-    height: auto;
-    /*border: 3px solid yellow;*/
-    }
+.activite .box2 {
+display: flex;
+flex-flow: row wrap; 
+justify-content: space-between;
+align-items: space-between;
+background-color:white; 
+font-size: 12px; 
+width: 100%;
+margin: 0 auto;  
+}
 
-    .maincontainer3 img{
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-      border-radius: 20px 20px 0px 0px;
-      }
-       
+.activite .box3 {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-content: center;
+background-color:white;
+font-size: 12px;
+border-radius: 20px;
+box-shadow: 5px 5px 5px 1 #F2F2F2;
+padding: 5px;
+width: 100%;
+border: 3px solid yellow;
+margin: 10px 0px 10px 0px;
+}
+
+.maincontainer3 .box3 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}  
