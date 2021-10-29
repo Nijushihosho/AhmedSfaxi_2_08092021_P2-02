@@ -145,12 +145,13 @@ margin-bottom: 20px;
 
 .barre-filtre {
     display: flex; 
-    justify-content: space-around; 
+    flex-flow: row wrap;
+    justify-content: flex-start; 
     align-items: center;
-    /*margin: 0 20px 20px 20px;/*
+    /*margin: 0 20px 20px 20px;*/
     /*margin: 0 auto;*/
     font-size: 14px;
-    width: 70%;
+    width: 100%;
 }
   
   .filtre {
@@ -497,7 +498,7 @@ footer li {
     list-style: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .flex-container {
     flex-flow: column wrap;
     width: 100%;
@@ -849,10 +850,10 @@ footer .liste {
   background-color: #F2F2F2;
 }
 
-@media screen and (min-width:600px) (max-width: 992px) {
+@media screen and (min-width: 768px) (max-width:992px) {
   .flex-container {
    flex-flow: row wrap;
-    width: 100%;
+   width: 100%;
   }
 
   .topnav {
