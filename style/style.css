@@ -53,9 +53,10 @@ color: #0065FC;
 }
 
 .logo {
-  display: flex;
+  margin-right: auto;
+  /*display: flex;
   justify-content: flex-start;
-  align-content: flex-start;
+  align-content: flex-start;*/
 }
 
 /*.topnav {
