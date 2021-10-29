@@ -591,14 +591,18 @@ border: 3px solid #df00fc;
 }
 
  /*icon de de localisation*/
- .input-container .fas {
+ i.fas.fa-map-marker-alt{
+   display: flex;
+   justify-content: center;
+   align-items: center;
   background-color: #F2F2F2;
+  border: none;
   color: black;
   border-radius: 15px 0px 0px 15px;
-  min-width: 50px;
-  padding: 10px;
-  text-align: center;
-  vertical-align: center;
+  /*min-width: 50px;*/
+  padding: 10px 14px;
+  /*text-align: center;
+  vertical-align: center;*/
 }
 .input-container input.input.field {
   padding: 10px;
@@ -616,7 +620,7 @@ border: 3px solid #df00fc;
 
 /* style du button rechercher */
 /*Bouton rechercher */
-.input-container .btn {
+/*.input-container .btn {
   border-radius: 0 10px 10px 0;
   color: white;
   background-color: #0065fc;
@@ -624,7 +628,7 @@ border: 3px solid #df00fc;
   font-size: 18px;
   cursor: pointer;
   box-shadow: 5px 5px 5px 1px #F2F2F2;
-}
+}*/
 .btn  {
   display: none;
 }
@@ -632,19 +636,26 @@ border: 3px solid #df00fc;
 .btn2 {
 display: block;
 background-color: #0065FC;
-border-radius: 15px;
+border: none;
+color: white;
+padding: 10px 14px;
+font-size: 12px;
+border-radius: 0 15px 15px 0;
 border: 3px solid #fc7a00;
-width: 47px;
 }
 
-.btn2 .fas.fa-search {
-  display: block;
+.btn2 {
+  cursor: pointer;
+}
+
+.btn2 i.fas.fa-search {
+  display: flex;
+  justify-content: center;
   color: white;
   background-color: #0065fc;
   border-radius: 15px;
   border: 3px solid #fc0000;
-  width: 95%;
-  height: 48x;
+  /*width: fit-content;*/
 }
 
 .titrefiltres {
