@@ -850,7 +850,7 @@ footer .liste {
 
 @media screen and (min-width:600px) (max-width: 992px) {
   .flex-container {
-   flex-flow: column wrap;
+   flex-flow: row wrap;
     width: 100%;
   }
 
@@ -876,7 +876,7 @@ justify-content: space-between;
 align-items: space-between;
 background-color:white; 
 font-size: 12px; 
-width: 100%;
+width: 60%;
 margin: 0 auto;  
 }
 
@@ -884,7 +884,7 @@ margin: 0 auto;
 display: flex;
 flex-wrap: wrap;
 justify-content: flex-start;
-align-content: center;
+align-items: flex-start;
 background-color:white;
 font-size: 12px;
 border-radius: 20px;
