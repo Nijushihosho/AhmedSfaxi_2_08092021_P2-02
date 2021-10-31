@@ -107,7 +107,7 @@ border: 3px solid #6100fc;
   }
   
   .input-field:focus {
-    border-style: none white;
+    border-style: none;
   }
   
   /* style du button rechercher */
@@ -499,7 +499,7 @@ footer li {
     list-style: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 667px) {
   .flex-container {
     flex-flow: column wrap;
     width: 100%;
@@ -639,13 +639,13 @@ display: block;
 background-color: #0065FC;
 border: none;
 color: white;
-padding: 10px 14px;
-font-size: 12px;
+padding: 10px;
+font-size: 10px;
 border-radius: 0 15px 15px 0;
 border: 3px solid #fc7a00;
 }
 
-.btn2 {
+.btn2:hover {
   cursor: pointer;
 }
 
@@ -866,26 +866,26 @@ footer .liste {
   background-color: #F2F2F2;
 }
 
-@media screen and (min-width: 768px) (max-width:992px) {
-  .flex-container {
-   flex-flow: row wrap;
-   width: 100%;
-  }
+@media screen and (min-width: 768px) <max-width :1051px> {
+.flex-container {
+flex-flow: row wrap;
+width: 100%;
+}
 
-  .topnav {
-  margin-left: 0 auto;
-  height: 45px;
-  width: 100%;
-  }
+.topnav {
+margin-left: 0 auto;
+height: 45px;
+width: 100%;
+}
 
-  .activite {
-  flex-flow: row wrap;
-  justify-content: center;
-  align-content: space-around;
-  /*width: 100%;*/
-  /*margin: 0 auto;*/
-  border: 3px solid rgb(68, 0, 255);
-  }
+.activite {
+flex-flow: row wrap;
+justify-content: center;
+align-content: space-around;
+/*width: 100%;*/
+/*margin: 0 auto;*/
+border: 3px solid rgb(68, 0, 255);
+}
 
 .activite .box2 {
 display: flex;
@@ -914,8 +914,8 @@ margin: 10px 0px 10px 0px;
 }
 
 .maincontainer3 .box3 img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 20px 20px 0px 0px;
+width: 100%;
+height: auto;
+object-fit: cover;
+border-radius: 20px 20px 0px 0px;
 }  
