@@ -7,7 +7,6 @@
 * * Methode * CSS rules to specify families font-family: 'Raleway', sans-serif 
 */
 
-
 body {
     font-family: "Raleway": "Sans-Serif";
 }
@@ -486,7 +485,8 @@ footer li {
     list-style: none;
 }
 
-@media screen and (min-width: 992px) {
+
+@media screen and (min-width: 768px) {
   
   /*section .maincontainer3.background2 {
   display: flex;
