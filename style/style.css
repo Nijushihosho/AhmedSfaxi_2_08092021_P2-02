@@ -7,16 +7,9 @@
 * * Methode * CSS rules to specify families font-family: 'Raleway', sans-serif 
 */
 
-* margin: 0 auto;
-
-:root {
-  --bleu: #0065fc;
-  --lightblue:#deebff;
-  --lightgris:#F2F2F2;  
-}
 
 body {
-    font-family: "Raleway"; sans-serif;
+    font-family: "Raleway": "Sans-Serif";
 }
 
 nav img {
@@ -247,7 +240,7 @@ margin-bottom: 20px;
 #marseille .box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: first baseline;
+  justify-content: baseline;
   align-content: stretch;
   background-color:white;
   font-size: 12px;
@@ -322,7 +315,7 @@ margin-bottom: 20px;
 #populaires .description {
   display: flex;
   flex-flow: column wrap;
-  justify-content: first baseline;
+  justify-content: baseline;
   align-items: flex-start;
   margin-left: 10px;
 }
@@ -499,8 +492,9 @@ footer li {
     list-style: none;
 }
 
-@media screen and (max-width: 667px) {
-  .flex-container {
+@media screen and (max-width: 600px) {
+  
+.flex-container {
     flex-flow: column wrap;
     width: 100%;
   }
@@ -533,6 +527,7 @@ nav {
   margin: 0;
   height: 45px;
 }
+
 .mobilenav {
   order: 0;
   justify-content: center;
@@ -616,7 +611,7 @@ border: 3px solid #df00fc;
 }
 
 .input-field:focus {
-  border-style: none white;
+  border-style: none;
 }
 
 /* style du button rechercher */
@@ -676,10 +671,6 @@ align-content: flex-start;
     font-size: 14px;
 }
 
-.filtre :last-child(4){
-  align-self: flex-end;
-}
-  
 .boxinfo {
   flex-flow: row nowrap; 
   justify-content: center;
@@ -748,7 +739,7 @@ margin: 0 auto;
     width: 100%;
     margin: 0px 0px 10px 0px;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px 1px #F2F2F2
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
     padding: 4px;
   }
   
@@ -804,7 +795,7 @@ align-content: center;
 background-color:white;
 font-size: 12px;
 border-radius: 20px;
-box-shadow: 5px 5px 5px 1 #F2F2F2;
+box-shadow: 5px 5px 5px 1px #F2F2F2;
 padding: 5px;
 width: 100%;
 border: 3px solid yellow;
@@ -819,7 +810,7 @@ margin: 10px 0px 10px 0px;
   background-color:white;
   font-size: 12px;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px 1 #F2F2F2;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
   padding: 5px;
   width: 100%;
   border: 3px solid rgb(230, 17, 212);
@@ -834,7 +825,7 @@ margin: 10px 0px 10px 0px;
     background-color:white;
     font-size: 12px;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px 1 #F2F2F2;
+    box-shadow: 5px 5px 5px 1px #F2F2F2;
     padding: 5px;
     width: 100%;
   border: 3px solid rgb(0, 255, 128);
@@ -849,28 +840,32 @@ margin: 10px 0px 10px 0px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
   }
-   
-/*.flex-container3 {
-flex wrap: wrap;
-justify-content: ;
-border: 3px solid red;
-}*/
 
 footer {
-  flex-flow: column;
+  flex-direction: column;
 } 
 
 footer .liste {
-  flex-direction: column nowrap;
+  flex-flow: column nowrap;
   align-content: center;
   background-color: #F2F2F2;
 }
 
-@media screen and (min-width: 768px) <max-width :1051px> {
-.flex-container {
+ @media screen and (max
+ -width: 868px) {
+  /*.flex-container {
+    flex-flow: row wrap;
+    width: 10%;
+    border: 3px solid #00fc15;
+  }*/
+
+/*section .maincontainer3.background2 {
+display: flex;
 flex-flow: row wrap;
+justify-content: center;
+align-content: space-around;
 width: 100%;
-}
+}*/
 
 .topnav {
 margin-left: 0 auto;
@@ -878,13 +873,40 @@ height: 45px;
 width: 100%;
 }
 
+#marseille {
+flex-flow: row nowrap;
+justify-content: center;
+width: 100%;
+height: auto;
+margin: 0 auto;
+border: 3px solid #fc00da;
+}
+
+#marseille .box{
+display: flex;
+flex-wrap: nowrap;
+justify-content: flex-start;
+align-content: center;
+background-color:white;
+font-size: 12px;
+width: 100%;
+  /*flex-basis: 30%;*/
+border-radius: 20px;
+box-shadow: 5px 5px 5px 1px #f2f2f2;
+padding: 5px;
+margin: 0px 0px 10px 0px;
+/*width: 370px;*/
+border: 3px solid #2600fc;
+}
+
 .activite {
-flex-flow: row wrap;
+/*flex-flow: row wrap;
 justify-content: center;
 align-content: space-around;
-/*width: 100%;*/
+width: 100%;*/
+height: auto;
 /*margin: 0 auto;*/
-border: 3px solid rgb(68, 0, 255);
+border: 3px solid rgb(255, 72, 0);
 }
 
 .activite .box2 {
@@ -895,7 +917,9 @@ align-items: space-between;
 background-color:white; 
 font-size: 12px; 
 width: 60%;
+height: auto;
 margin: 0 auto;  
+border: 3px solid rgb(255, 136, 0);
 }
 
 .activite .box3 {
@@ -909,6 +933,7 @@ border-radius: 20px;
 box-shadow: 5px 5px 5px 1 #F2F2F2;
 padding: 5px;
 width: 100%;
+height: auto;
 border: 3px solid yellow;
 margin: 10px 0px 10px 0px;
 }
@@ -919,3 +944,5 @@ height: auto;
 object-fit: cover;
 border-radius: 20px 20px 0px 0px;
 }  
+
+}
