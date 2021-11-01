@@ -413,17 +413,11 @@ margin: 15px;
     box-shadow: 5px 5px 5px 1px #F2F2F2;    
     }
 
-.box1 .textactivite {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  align-content: space-between;
-} 
 
-.box3 .textactivite {
+.textactivite {
   display: flex;
   flex-flow: column wrap;
-  justify-content: first baseline;
+  justify-content: baseline;
   align-items: center;
   margin-left: 15px;
 }
