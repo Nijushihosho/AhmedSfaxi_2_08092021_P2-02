@@ -351,6 +351,7 @@ padding: 0 20px;
   align-content: center;
   width: 100%;
   margin: 20px 20px;
+  border: 3px solid black;
 }
 /*definition des 3 niveaux de box qui contiennent les vignettes activités*/
  
@@ -361,7 +362,7 @@ justify-content: flex-start;
 align-content: stretch; 
 background-color:white; 
 font-size: 12px; 
-width: 23%;
+width: 20%;
 border-radius: 20px; 
 box-shadow: 5px 5px 5px 1px #f2f2f2;
 margin: 15px;  
@@ -375,7 +376,7 @@ justify-content: space-between;
 align-content: space-between; 
 background-color:white; 
 font-size: 12px; 
-width: 23%;
+width: 20%;
 margin: 15px;  
 }
 
@@ -486,7 +487,7 @@ footer li {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width:1050px) {
   
   /*section .maincontainer3.background2 {
   display: flex;
@@ -578,7 +579,7 @@ footer li {
   }  
   }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   
 .flex-container {
     flex-flow: column wrap;
