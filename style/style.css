@@ -548,7 +548,7 @@ footer li {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  border: 3px solid #fc00da;
+  /*border: 3px solid #fc00da;*/
   }
   
   #marseille .box{
@@ -565,7 +565,7 @@ footer li {
   padding: 5px;
   margin: 0px 0px 10px 0px;
   /*width: 370px;*/
-  border: 3px solid #2600fc;
+  /*border: 3px solid #2600fc;*/
   }
   
   .activite {
@@ -575,7 +575,7 @@ footer li {
   width: 100%;*/
   height: auto;
   /*margin: 0 auto;*/
-  border: 3px solid rgb(255, 72, 0);
+  /*border: 3px solid rgb(255, 72, 0);*/
   }
   
   .activite .box2 {
@@ -705,7 +705,7 @@ nav {
   width: 100%;
   justify-content: center;
 margin: 0 auto;
-border: 3px solid #df00fc;
+/*border: 3px solid #df00fc;*/
 }
 
  /*icon de de localisation*/
@@ -717,10 +717,8 @@ border: 3px solid #df00fc;
   border: none;
   color: black;
   border-radius: 15px 0px 0px 15px;
-  /*min-width: 50px;*/
+  min-width: 50px;
   padding: 10px 14px;
-  /*text-align: center;
-  vertical-align: center;*/
 }
 .input-container input.input.field {
   justify-content: center;
@@ -728,7 +726,7 @@ border: 3px solid #df00fc;
   padding: 10px;
   width: 100%;
   outline: none;
-  border: 3px solid #F2F2F2;
+  border: 2px solid #F2F2F2;
   font-weight: bolder;
   border-left: none;
   border-right: none;
@@ -760,6 +758,7 @@ border: 3px solid #df00fc;
 .btn2 {
 display: flex;
 justify-content: center;
+align-items: center;
 background-color: #0065FC;
 border: none;
 color: white;
@@ -767,7 +766,7 @@ color: white;
 font-size: 10px;*/
 width: 50px;
 border-radius: 15px;
-border: 3px solid #fc7a00;
+/*border: 3px solid #fc7a00;*/
 }
 
 .btn2:hover {
@@ -910,7 +909,7 @@ padding: 5px;
 width: 100%;
 height: auto;
 border: 3px solid red;
-margin: 0 auto;
+margin: 15px 0px 0px 0px;
 }
 
 .activite .box2 {
