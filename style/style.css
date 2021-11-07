@@ -354,7 +354,7 @@ padding: 0 10px;
   align-content: center;
   width: 100%;
   margin: 20px 20px;
-  border: 3px solid black;
+  /*border: 3px solid black;*/
 }
 /*definition des 3 niveaux de box qui contiennent les vignettes activités*/
  
@@ -588,7 +588,7 @@ footer li {
   width: 60%;
   height: auto;
   margin: 0 auto;  
-  border: 3px solid rgb(255, 136, 0);
+  /*border: 3px solid rgb(255, 136, 0);*/
   }
   
   .activite .box3 {
@@ -603,7 +603,7 @@ footer li {
   padding: 5px;
   width: 100%;
   height: auto;
-  border: 3px solid yellow;
+  /*border: 3px solid yellow;*/
   margin: 10px 0px 10px 0px;
   }
   
@@ -644,8 +644,6 @@ nav {
   width: 100%;
   justify-content: center;
   align-items: center;
-  /*align-content: flex-start;*/
-  /*border-bottom: 3px solid #F2F2F2;*/
   /*border: 3px solid #00fc71;*/
   margin: 0;
   height: 45px;
@@ -684,18 +682,6 @@ nav {
   border-bottom: 3px solid #0065fc;
   border-top: none;
 }
-
-/*.topnav a.active:hover  {
- flex-flow: row nowrap;
- width: 100%;
- justify-content: flex-start;
- align-content: center;
- align-self: center;
- border-bottom: 3px solid transparent;
- border: 3px solid #fc0076;
- height: 45px;
- border-bottom: 3px solid #0065fc;
-}*/
 
 /* barre de recherche */
 
@@ -781,18 +767,19 @@ border-radius: 15px;
   width: 50px;
   border-radius: 15px;
   /*border: 3px solid #fc0000;*/
-  /*width: fit-content;*/
 }
 
 /* barre de filtres */ 
 
+/*div englobante titre et boutons filtres*/
 .titrefiltres {
 flex-flow: column wrap;
 justify-content: flex-start;
-align-items: flex-start;
+align-items: center;
 align-content: flex-start;
 }
 
+/* div des filtres */ 
 .barre-filtre { 
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -803,6 +790,7 @@ align-content: flex-start;
   font-size: 14px;
 }
 
+/* div de l'icone inco et son texte */
 .boxinfo {
   display: flex;
   flex-wrap: nowrap; 
@@ -825,17 +813,19 @@ max-height: 120px;
 height: auto;
 object-fit: cover;
 border-radius: 20px 20px 0px 0px;
-border: 3px solid #00fcd2;
+/*border: 3px solid #00fcd2;*/
 }
-     
+
+/* div globale qui contient toutes les vignettes hébergement Marseille */
 #marseille {
   flex-flow: column nowrap;
   justify-content: center;
   width: 100%;
   margin: 0 auto;
-  border: 3px solid #fc0000;
+  /*border: 3px solid #fc0000;*/
 }
 
+/* contenants images  et texte */
 #marseille .box{
   display: flex;
   flex-wrap: wrap;
@@ -849,15 +839,16 @@ border: 3px solid #00fcd2;
   padding: 5px;
   margin: 0px 0px 10px 0px;
   /*width: 370px;*/
-  border: 3px solid #2600fc;
+  /*border: 3px solid #2600fc;*/
 }
 
-/* Les plus populaires */
+/* Conteneur Les plus populaires */
 .maincontainer2 {
     order: -1;
     margin-bottom: 15px;
   }
 
+  /* Conteneur activité marseille */
 .maincontainer3 {
     flex-flow: row wrap;
     justify-content: space-between;
@@ -865,6 +856,7 @@ border: 3px solid #00fcd2;
     width: 100%;
   }
 
+/* contenants images et textes populaires */   
 #populaires .box {
     display: flex;
     justify-content: flex-start;
@@ -878,6 +870,7 @@ border: 3px solid #00fcd2;
     padding: 4px;
   }
   
+ /* sous contenant flexbox texte dans populaires */  
 #populaires .description {
   display: flex;
   flex-flow: column wrap;
@@ -896,6 +889,7 @@ height: auto;
 margin: 0 auto;
   }
 
+ /* conteneur des deux grandes vignettes activités marseille */ 
 .activite .box1 {
 display: flex;
 flex-wrap: wrap;
@@ -908,10 +902,11 @@ box-shadow: 5px 5px 5px 1px #F2F2F2;
 padding: 5px;
 width: 100%;
 height: auto;
-border: 3px solid red;
+/*border: 3px solid red;*/
 margin: 15px 0px 0px 0px;
 }
 
+/* conteneur qui englobe deux vignettes activités marseille */
 .activite .box2 {
 display: flex;
 flex-wrap: wrap; 
@@ -923,6 +918,7 @@ width: 100%;
 margin: 0 auto;  
 }
 
+/* vignettes individuelles activités marseille */
 .activite .box3 {
 display: flex;
 flex-wrap: wrap;
@@ -934,7 +930,7 @@ border-radius: 20px;
 box-shadow: 5px 5px 5px 1px #F2F2F2;
 padding: 5px;
 width: 100%;
-border: 3px solid yellow;
+/*border: 3px solid yellow;*/
 margin: 10px 0px 10px 0px;
 }
 
@@ -949,7 +945,7 @@ margin: 10px 0px 10px 0px;
   box-shadow: 5px 5px 5px 1px #F2F2F2;
   padding: 5px;
   width: 100%;
-  border: 3px solid rgb(230, 17, 212);
+  /*border: 3px solid rgb(230, 17, 212);*/
   margin-top: 10px;
   }
   
@@ -964,7 +960,7 @@ margin: 10px 0px 10px 0px;
     box-shadow: 5px 5px 5px 1px #F2F2F2;
     padding: 5px;
     width: 100%;
-  border: 3px solid rgb(0, 255, 128);
+  /*border: 3px solid rgb(0, 255, 128);*/
     margin-top: 10px;
     }
     
