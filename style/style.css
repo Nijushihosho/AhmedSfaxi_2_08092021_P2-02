@@ -704,13 +704,13 @@ margin: 0 auto;
   color: black;
   border-radius: 15px 0px 0px 15px;
   min-width: 50px;
-  padding: 10px 14px;
+  /*padding: 10px 14px;*/
 }
 .input-container input.input.field {
   justify-content: center;
   align-content: center;
   padding: 10px;
-  width: 100%;
+  width: 90%;
   outline: none;
   border: 2px solid #F2F2F2;
   font-weight: bolder;
@@ -751,7 +751,7 @@ color: white;
 /*padding: 10px;
 font-size: 10px;*/
 width: 50px;
-border-radius: 15px;
+border-radius: 0px 15px 15px 0px;
 /*border: 3px solid #fc7a00;*/
 }
 
@@ -760,10 +760,12 @@ border-radius: 15px;
 }
 
 .btn2 i.fas.fa-search {
-  display: block;
+  display: flex;
   justify-content: center;
+  align-items: center;
   color: white;
   background-color: #0065fc;
+  border: none;
   width: 50px;
   border-radius: 15px;
   /*border: 3px solid #fc0000;*/
