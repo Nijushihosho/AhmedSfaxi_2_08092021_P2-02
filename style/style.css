@@ -480,14 +480,12 @@ footer{
 footer .liste {
 display: flex;
 flex-wrap: nowrap;
-justify-content: space-between;
-align-content: center;
+justify-content: center;
+align-content: flex-start;
 width: 100%;
 } 
 
-footer li {
-    list-style: none;
-}
+
 
 
 @media screen and (min-width: 768px) and (max-width:1050px) {
@@ -695,7 +693,7 @@ margin: 0 auto;
 }
 
  /*icone de de localisation*/
- 
+
  i.fas.fa-map-marker-alt{
   display: flex;
   justify-content: center;
