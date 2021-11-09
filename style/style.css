@@ -694,7 +694,8 @@ margin: 0 auto;
 /*border: 3px solid #df00fc;*/
 }
 
- /*icon de de localisation*/
+ /*icone de de localisation*/
+ 
  i.fas.fa-map-marker-alt{
   display: flex;
   justify-content: center;
