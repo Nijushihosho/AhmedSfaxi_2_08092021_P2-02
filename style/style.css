@@ -6,7 +6,7 @@
 /**
 * * Methode * CSS rules to specify families font-family: 'Raleway', sans-serif 
 */
-
+AhmedSfaxi_2_09092021
 body {
     font-family: "Raleway", Sans-Serif;
 }
@@ -321,6 +321,7 @@ margin-bottom: 20px;
   align-items: flex-start;
   margin-left: 10px;
 }
+
 /* class qui permet de coller les étoiles en bas dans populaires*/
 /*.pop {
 display: flex;
@@ -376,7 +377,7 @@ margin: 15px;
   display: flex;
 flex-flow: row wrap; 
 justify-content: space-between; 
-align-content: space-around; 
+align-content: space-between; 
 background-color:white; 
 font-size: 12px; 
 width: 20%;
