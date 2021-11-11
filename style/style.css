@@ -241,7 +241,7 @@ margin-bottom: 20px;
 #marseille .box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: baseline;
+  justify-content: flex-start;
   align-content: stretch;
   background-color:white;
   font-size: 12px;
@@ -322,7 +322,7 @@ margin-bottom: 20px;
 #populaires .description {
   display: flex;
   flex-flow: column wrap;
-  justify-content: baseline;
+  justify-content: flex-start;
   align-items: flex-start;
   margin-left: 10px;
 }
@@ -588,7 +588,7 @@ flex-basis: 30%;
   display: flex;
   flex-flow: row wrap; 
   justify-content: space-around;
-  align-items: space-around;
+  align-items: center;
   background-color:white; 
   font-size: 12px; 
   width: 60%;
@@ -605,7 +605,7 @@ flex-basis: 30%;
   background-color:white;
   font-size: 12px;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px 1 #F2F2F2;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
   padding: 5px;
   width: 100%;
   height: auto;
@@ -886,7 +886,6 @@ border-radius: 20px 20px 0px 0px;
     margin: 0px 0px 10px 0px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 1px #F2F2F2;
-    padding: 0 auto;
   }
   
  /* sous contenant flexbox texte dans populaires */  
@@ -904,7 +903,6 @@ border-radius: 20px 20px 0px 0px;
   justify-content: space-between;
   align-items: center;
   flex-basis: 100%;
-  padding: 0 auto;
   /*margin: 0 auto;*/
 }
 
