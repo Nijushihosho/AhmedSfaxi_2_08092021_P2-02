@@ -426,7 +426,7 @@ margin: 15px;
 .textactivite {
   display: flex;
   flex-flow: column wrap;
-  justify-content: baseline;
+  justify-content: flex-start;
   align-items: center;
   margin-left: 15px;
 }
