@@ -253,6 +253,12 @@ margin-bottom: 20px;
   margin: 10px;
 }
 
+#marseille .box:hover {
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.466);
+  }
+
 /*#marseille .text {
   display: flex;
   flex-flow: column wrap;
