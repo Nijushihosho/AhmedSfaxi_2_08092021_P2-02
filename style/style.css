@@ -261,9 +261,7 @@ margin-bottom: 20px;
 /*#marseille .text {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
-  align-items: flex-start;
-  align-content: center;
+  justify-content: flex-start;
   color: black;
   border-radius: 20px;
   padding: 5px;
@@ -786,7 +784,7 @@ border-radius: 0px 15px 15px 0px;
 flex-flow: column wrap;
 justify-content: flex-start;
 align-items: flex-start;
-align-content: flex-start;
+/*align-content: flex-start;*/
 /*margin: 0;*/
 }
 
@@ -794,9 +792,8 @@ align-content: flex-start;
 .barre-filtre { 
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
-  align-content: flex-start;
-  flex-basis: 100%;
+  /*align-content: flex-end;*/
+  /*flex-basis: 100%;*/
   /*height: auto;*/
   margin: 0px;
   font-size: 14px;
@@ -804,7 +801,7 @@ align-content: flex-start;
 
 /* espace vertical entre les filtres*/
 .filtre {
-  margin: 5px;
+  margin: 0px 20px 10px 0px;
 }
 
 /* div de l'icone info et son texte */
@@ -1004,7 +1001,6 @@ margin: 10px 0px 10px 0px;
 /* pied de page */
 footer {
   flex-flow: row wrap;
-  margin: auto;
 }
 
 footer .liste1 {
