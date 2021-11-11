@@ -133,7 +133,7 @@ display: flex;
 flex-flow: row nowrap;
 justify-content: flex-start;
 align-items: center;
-margin-right: 17px;
+/*margin-right: 17px;*/
 margin-bottom: 20px;
 }
 
@@ -141,12 +141,11 @@ margin-bottom: 20px;
 .barre-filtre {
     display: flex; 
     flex-flow: row wrap;
-    justify-content: space-around; 
+    justify-content: flex-start; 
     align-items: center;
-    /*margin: 0 20px 20px 20px;*/
-    /*margin: 0 auto;*/
+    margin: 0 20px 0px 20px;
     font-size: 14px;
-    width: 80%;
+    /*width: 80%;*/
 }
   
   .filtre {
@@ -783,10 +782,10 @@ border-radius: 0px 15px 15px 0px;
 
 /*div englobante titre et boutons filtres*/
 .titrefiltres {
-flex-flow: column wrap;
-justify-content: space-around;
+flex-flow: column nowrap;
+justify-content: space-between;
 align-items: flex-start;
-align-content: stretch;
+align-content: flex-start;
 margin: 0 auto;
 }
 
@@ -794,8 +793,8 @@ margin: 0 auto;
 .barre-filtre { 
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: flex-start;
-  /*align-content: flex-start;*/
+  align-items: center;
+  align-content: flex-end;
   flex-basis: 100%;
   height: auto;
   margin: 0;
@@ -805,7 +804,7 @@ margin: 0 auto;
 /* espace vertical entre les filtres*/
 .filtre {
   /*align-content: space-between;*/
-  margin: 5px;
+  margin-bottom: 5px;
 }
 
 /* div de l'icone info et son texte */
