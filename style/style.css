@@ -6,7 +6,7 @@
 /**
 * * Methode * CSS rules to specify families font-family: 'Raleway', sans-serif 
 */
-AhmedSfaxi_2_09092021
+
 body {
     font-family: "Raleway", Sans-Serif;
 }
@@ -258,17 +258,6 @@ margin-bottom: 20px;
   background-color: rgba(255, 255, 255, 0.466);
   }
 
-/*#marseille .text {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: flex-start;
-  align-content: center;
-  color: black;
-  border-radius: 20px;
-  padding: 5px;
-}*/
-
 /*conteneur "Les plus populaires"*/
 .maincontainer2 {
   flex: 1;
@@ -326,15 +315,6 @@ margin-bottom: 20px;
   align-items: flex-start;
   margin-left: 10px;
 }
-
-/* class qui permet de coller les étoiles en bas dans populaires*/
-/*.pop {
-display: flex;
-justify-content: flex-end;
-align-items: baseline;
-border-bottom: 3px solid #fc8f00;
-}*/
-
 
 .bleu {
   color: #0065fc;
@@ -497,20 +477,11 @@ flex-basis: 30%;
   }
     
 @media screen and (min-width: 768px) and (max-width:1050px) {
-  
-  /*section .maincontainer3.background2 {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-content: space-around;
-  width: 100%;
-  }*/
-  
+    
   .topnav {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*margin-left: 0 auto;*/
   height: 45px;
   width: 100%;
   }
@@ -532,8 +503,6 @@ flex-basis: 30%;
       flex-flow: row wrap;
       justify-content: space-around; 
       align-items: center;
-      /*margin: 0 20px 20px 20px;*/
-      /*margin: 0 auto;*/
       font-size: 14px;
       width: 100%;
   }
@@ -565,22 +534,15 @@ flex-basis: 30%;
   background-color:white;
   font-size: 12px;
   width: 100%;
-    /*flex-basis: 30%;*/
   border-radius: 20px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
   padding: 5px;
   margin: 0px 0px 10px 0px;
-  /*width: 370px;*/
   /*border: 3px solid #2600fc;*/
   }
   
   .activite {
-  /*flex-flow: row wrap;
-  justify-content: center;
-  align-content: space-around;
-  width: 100%;*/
   height: auto;
-  /*margin: 0 auto;*/
   /*border: 3px solid rgb(255, 72, 0);*/
   }
   
@@ -672,7 +634,6 @@ nav {
   /*border: 3px solid #fc004c;*/
   margin: 0;
   height: 45px;
-  /*border-bottom: 3px solid #0065fc;*/
 }
 
 .topnav a:hover {
@@ -731,15 +692,6 @@ margin: 0 auto;
 
 /* style du button rechercher */
 /*Bouton rechercher */
-/*.input-container .btn {
-  border-radius: 0 10px 10px 0;
-  color: white;
-  background-color: #0065fc;
-  padding: 10px 14px;
-  font-size: 18px;
-  cursor: pointer;
-  box-shadow: 5px 5px 5px 1px #F2F2F2;
-}*/
 
 /*desactivation bouton recherche desktop et tablette*/
 .btn  {
@@ -755,8 +707,6 @@ align-items: center;
 background-color: #0065FC;
 border: none;
 color: white;
-/*padding: 10px;
-font-size: 10px;*/
 width: 50px;
 border-radius: 0px 15px 15px 0px;
 /*border: 3px solid #fc7a00;*/
@@ -803,7 +753,6 @@ margin: 0 auto;
 
 /* espace vertical entre les filtres*/
 .filtre {
-  /*align-content: space-between;*/
   margin-bottom: 5px;
 }
 
@@ -857,12 +806,10 @@ border-radius: 20px 20px 0px 0px;
   align-content: center;
   background-color:white;
   font-size: 12px;
-  /*flex-basis: 30%;*/
   border-radius: 20px;
   box-shadow: 5px 5px 5px 1px #f2f2f2;
   padding: 5px;
   margin: 0px 0px 10px 0px;
-  /*width: 370px;*/
   /*border: 3px solid #2600fc;*/
 }
 
@@ -1010,19 +957,19 @@ footer {
 }
 
 footer .liste1 {
-  flex-basis:100%;
+  flex-basis: 100%;
   align-content: center;
   background-color: #F2F2F2;
 }
 
 footer .liste2 {
-  flex-basis:100%;
+  flex-basis: 100%;
   align-content: center;
   background-color: #F2F2F2;
 }
 
 footer .liste3 {
-  flex-basis:100%;
+  flex-basis: 100%;
   align-content: center;
   background-color: #F2F2F2;
 }
